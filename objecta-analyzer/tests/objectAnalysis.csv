@@ -1,0 +1,14 @@
+Id,Path,Level,Index,Property,Type,Value
+1,/flowId,1,1,flowId,string,TWFuYWdlTXlCb29
+2,/order,1,1,order,object,[object]
+3,/order/orderId,2,1,orderId,string,Qm9va2luZ0BJQjQ2
+4,/order/status,2,1,status,string,ISSUED
+5,/order/codes,2,1,codes,strings,C1|C2|C3
+6,/order/bookingReferences,2,1,bookingReferences,array,[objects]
+7,/order/bookingReferences[1]/provider,3,1,provider,string,IB
+8,/order/bookingReferences[1]/reference,3,1,reference,string,HHWC5
+9,/order/bookingReferences[2]/provider,3,2,provider,string,IB-2
+10,/order/bookingReferences[2]/reference,3,2,reference,string,HHWC5-2
+11,/order/officeIata,2,1,officeIata,string,7849644
+12,/order/amount,2,1,amount,number,100
+13,/channel,1,1,channel,string,IBCOM

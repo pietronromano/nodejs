@@ -1,0 +1,545 @@
+Id,Path,Level,Index,Property,Type,Value
+1,/flowId,1,1,flowId,string,TWFuYWdlTXlCb29raW5nQElCN2EyYThmMGI4ZjU4NGYzY2IwZTk2YzBlMGJkMGI0ZjY=
+2,/order,1,1,order,object,[object]
+3,/order/orderId,2,1,orderId,string,Qm9va2luZ0BJQjQ2NTc0YjJhNjZkZDRkOTY5ZWZmNzliMDE5NmE4NTY1T1A=
+4,/order/status,2,1,status,string,ISSUED
+5,/order/clientLocator,2,1,clientLocator,string,HHWC5
+6,/order/bookingReferences,2,1,bookingReferences,array,[objects]
+7,/order/bookingReferences[1]/provider,3,1,provider,string,IB
+8,/order/bookingReferences[1]/reference,3,1,reference,string,HHWC5
+9,/order/orderItems,2,1,orderItems,array,[objects]
+10,/order/orderItems[1]/type,3,1,type,string,flight
+11,/order/orderItems[1]/orderItemId,3,1,orderItemId,string,IB46574b2a66dd4d969eff79b0196a8565OP_01
+12,/order/orderItems[1]/bookingReferences,3,1,bookingReferences,array,[objects]
+13,/order/orderItems[1]/bookingReferences[1]/provider,4,1,provider,string,IB
+14,/order/orderItems[1]/bookingReferences[1]/reference,4,1,reference,string,HHWC5
+15,/order/orderItems[1]/price,3,1,price,object,[object]
+16,/order/orderItems[1]/price/fare,4,1,fare,number,28
+17,/order/orderItems[1]/price/tax,4,1,tax,number,20.22
+18,/order/orderItems[1]/price/total,4,1,total,number,48.22
+19,/order/orderItems[1]/price/currency,4,1,currency,string,EUR
+20,/order/orderItems[1]/price/ticketingFee,4,1,ticketingFee,number,0
+21,/order/orderItems[1]/sliceIds,3,1,sliceIds,strings,MADBIO20240207072500
+22,/order/orderItems[1]/passengerPrices,3,1,passengerPrices,array,[objects]
+23,/order/orderItems[1]/passengerPrices[1]/fareCalculation,4,1,fareCalculation,string,MAD IB BIO28.00EUR28.00END
+24,/order/orderItems[1]/passengerPrices[1]/passengerId,4,1,passengerId,string,ADULT_01
+25,/order/orderItems[1]/passengerPrices[1]/price,4,1,price,object,[object]
+26,/order/orderItems[1]/passengerPrices[1]/price/fare,5,1,fare,number,28
+27,/order/orderItems[1]/passengerPrices[1]/price/tax,5,1,tax,number,20.22
+28,/order/orderItems[1]/passengerPrices[1]/price/total,5,1,total,number,48.22
+29,/order/orderItems[1]/passengerPrices[1]/price/currency,5,1,currency,string,EUR
+30,/order/orderItems[1]/passengerPrices[1]/price/ticketingFee,5,1,ticketingFee,number,0
+31,/order/orderItems[1]/passengerPrices[1]/segmentPrices,4,1,segmentPrices,array,[objects]
+32,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/price,5,1,price,object,[object]
+33,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/price/fare,6,1,fare,number,28
+34,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/price/currency,6,1,currency,string,EUR
+35,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/fareCode,5,1,fareCode,string,ADNOB4
+36,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/segmentsIds,5,1,segmentsIds,strings,IB044820240207
+37,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/ticketDesignator,5,1,ticketDesignator,object,null
+38,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/penalties,5,1,penalties,object,[object]
+39,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/penalties/length,6,1,length,number,0
+40,/order/orderItems[1]/passengerPrices[1]/segmentPrices[1]/penaltyFlags,5,1,penaltyFlags,object,null
+41,/order/orderItems[1]/passengerPrices[1]/taxes,4,1,taxes,array,[objects]
+42,/order/orderItems[1]/passengerPrices[1]/taxes[1]/code,5,1,code,string,QV
+43,/order/orderItems[1]/passengerPrices[1]/taxes[1]/amount,5,1,amount,number,3.6
+44,/order/orderItems[1]/passengerPrices[1]/taxes[1]/currency,5,1,currency,string,EUR
+45,/order/orderItems[1]/passengerPrices[1]/taxes[1]/description,5,1,description,string,Security
+46,/order/orderItems[1]/passengerPrices[1]/taxes[1]/subcode,5,1,subcode,object,null
+47,/order/orderItems[1]/passengerPrices[1]/taxes[1]/country,5,1,country,object,null
+48,/order/orderItems[1]/passengerPrices[1]/taxes[1]/carrier,5,1,carrier,object,null
+49,/order/orderItems[1]/passengerPrices[1]/taxes[2]/code,5,2,code,string,OG
+50,/order/orderItems[1]/passengerPrices[1]/taxes[2]/amount,5,2,amount,number,0.69
+51,/order/orderItems[1]/passengerPrices[1]/taxes[2]/currency,5,2,currency,string,EUR
+52,/order/orderItems[1]/passengerPrices[1]/taxes[2]/description,5,2,description,string,Security Tax
+53,/order/orderItems[1]/passengerPrices[1]/taxes[2]/subcode,5,2,subcode,object,null
+54,/order/orderItems[1]/passengerPrices[1]/taxes[2]/country,5,2,country,object,null
+55,/order/orderItems[1]/passengerPrices[1]/taxes[2]/carrier,5,2,carrier,object,null
+56,/order/orderItems[1]/passengerPrices[1]/taxes[3]/code,5,3,code,string,JD
+57,/order/orderItems[1]/passengerPrices[1]/taxes[3]/amount,5,3,amount,number,15.93
+58,/order/orderItems[1]/passengerPrices[1]/taxes[3]/currency,5,3,currency,string,EUR
+59,/order/orderItems[1]/passengerPrices[1]/taxes[3]/description,5,3,description,string,Departure Charge
+60,/order/orderItems[1]/passengerPrices[1]/taxes[3]/subcode,5,3,subcode,object,null
+61,/order/orderItems[1]/passengerPrices[1]/taxes[3]/country,5,3,country,object,null
+62,/order/orderItems[1]/passengerPrices[1]/taxes[3]/carrier,5,3,carrier,object,null
+63,/order/orderItems[1]/passengerPrices[1]/orderItemPaymentInfos,4,1,orderItemPaymentInfos,object,[object]
+64,/order/orderItems[1]/passengerPrices[1]/orderItemPaymentInfos/length,5,1,length,number,0
+65,/order/slices,2,1,slices,array,[objects]
+66,/order/slices[1]/sliceId,3,1,sliceId,string,MADBIO20240207072500
+67,/order/slices[1]/type,3,1,type,string,REGULAR
+68,/order/slices[1]/departureDateTime,3,1,departureDateTime,string,2024-02-07 07:25
+69,/order/slices[1]/arrivalDateTime,3,1,arrivalDateTime,string,2024-02-07 08:30
+70,/order/slices[1]/duration,3,1,duration,number,65
+71,/order/slices[1]/stopsNumber,3,1,stopsNumber,number,0
+72,/order/slices[1]/detailedPrices,3,1,detailedPrices,array,[objects]
+73,/order/slices[1]/detailedPrices[1]/fare,4,1,fare,number,0
+74,/order/slices[1]/detailedPrices[1]/currency,4,1,currency,object,null
+75,/order/slices[1]/detailedPrices[1]/passengerIds,4,1,passengerIds,strings,ADULT_01
+76,/order/slices[1]/detailedPrices[1]/segmentPrices,4,1,segmentPrices,object,[object]
+77,/order/slices[1]/detailedPrices[1]/segmentPrices/length,5,1,length,number,0
+78,/order/slices[1]/segments,3,1,segments,array,[objects]
+79,/order/slices[1]/segments[1]/type,4,1,type,string,CONFIRMED
+80,/order/slices[1]/segments[1]/mmbAllowed,4,1,mmbAllowed,boolean,true
+81,/order/slices[1]/segments[1]/ckiStatus,4,1,ckiStatus,object,[object]
+82,/order/slices[1]/segments[1]/ckiStatus/code,5,1,code,string,CHECKABLE
+83,/order/slices[1]/segments[1]/ckiStatus/message,5,1,message,object,null
+84,/order/slices[1]/segments[1]/noShow,4,1,noShow,boolean,false
+85,/order/slices[1]/segments[1]/flyNow,4,1,flyNow,boolean,false
+86,/order/slices[1]/segments[1]/flown,4,1,flown,boolean,false
+87,/order/slices[1]/segments[1]/departure,4,1,departure,object,[object]
+88,/order/slices[1]/segments[1]/departure/code,5,1,code,string,MAD
+89,/order/slices[1]/segments[1]/departure/name,5,1,name,string,BARAJAS
+90,/order/slices[1]/segments[1]/departure/terminal,5,1,terminal,string,4
+91,/order/slices[1]/segments[1]/departure/city,5,1,city,object,[object]
+92,/order/slices[1]/segments[1]/departure/city/code,6,1,code,string,MAD
+93,/order/slices[1]/segments[1]/departure/city/description,6,1,description,string,Madrid
+94,/order/slices[1]/segments[1]/departure/city/countryCode,6,1,countryCode,string,ES
+95,/order/slices[1]/segments[1]/departure/city/country,6,1,country,object,[object]
+96,/order/slices[1]/segments[1]/departure/city/country/code,7,1,code,string,ES
+97,/order/slices[1]/segments[1]/departure/city/country/description,7,1,description,string,Spain
+98,/order/slices[1]/segments[1]/arrival,4,1,arrival,object,[object]
+99,/order/slices[1]/segments[1]/arrival/code,5,1,code,string,BIO
+100,/order/slices[1]/segments[1]/arrival/name,5,1,name,string,AIRPORT
+101,/order/slices[1]/segments[1]/arrival/terminal,5,1,terminal,object,null
+102,/order/slices[1]/segments[1]/arrival/city,5,1,city,object,[object]
+103,/order/slices[1]/segments[1]/arrival/city/code,6,1,code,string,BIO
+104,/order/slices[1]/segments[1]/arrival/city/description,6,1,description,string,Bilbao
+105,/order/slices[1]/segments[1]/arrival/city/countryCode,6,1,countryCode,string,ES
+106,/order/slices[1]/segments[1]/arrival/city/country,6,1,country,object,[object]
+107,/order/slices[1]/segments[1]/arrival/city/country/code,7,1,code,string,ES
+108,/order/slices[1]/segments[1]/arrival/city/country/description,7,1,description,string,Spain
+109,/order/slices[1]/segments[1]/departureCity,4,1,departureCity,object,[object]
+110,/order/slices[1]/segments[1]/departureCity/code,5,1,code,string,MAD
+111,/order/slices[1]/segments[1]/departureCity/description,5,1,description,string,Madrid
+112,/order/slices[1]/segments[1]/departureCity/countryCode,5,1,countryCode,string,ES
+113,/order/slices[1]/segments[1]/departureCity/timeZone,5,1,timeZone,string,Europe/Madrid
+114,/order/slices[1]/segments[1]/arrivalCity,4,1,arrivalCity,object,[object]
+115,/order/slices[1]/segments[1]/arrivalCity/code,5,1,code,string,BIO
+116,/order/slices[1]/segments[1]/arrivalCity/description,5,1,description,string,Bilbao
+117,/order/slices[1]/segments[1]/arrivalCity/countryCode,5,1,countryCode,string,ES
+118,/order/slices[1]/segments[1]/arrivalCity/timeZone,5,1,timeZone,string,Europe/Madrid
+119,/order/slices[1]/segments[1]/flight,4,1,flight,object,[object]
+120,/order/slices[1]/segments[1]/flight/marketingCarrier,5,1,marketingCarrier,object,[object]
+121,/order/slices[1]/segments[1]/flight/marketingCarrier/code,6,1,code,string,IB
+122,/order/slices[1]/segments[1]/flight/marketingCarrier/name,6,1,name,string,Iberia
+123,/order/slices[1]/segments[1]/flight/operationalCarrier,5,1,operationalCarrier,object,[object]
+124,/order/slices[1]/segments[1]/flight/operationalCarrier/code,6,1,code,string,IB
+125,/order/slices[1]/segments[1]/flight/operationalCarrier/name,6,1,name,string,Iberia
+126,/order/slices[1]/segments[1]/flight/marketingFlightNumber,5,1,marketingFlightNumber,string,0448
+127,/order/slices[1]/segments[1]/flight/operationalFlightNumber,5,1,operationalFlightNumber,string,0448
+128,/order/slices[1]/segments[1]/flight/operationalDisclosure,5,1,operationalDisclosure,string,IB
+129,/order/slices[1]/segments[1]/flight/aircraft,5,1,aircraft,object,[object]
+130,/order/slices[1]/segments[1]/flight/aircraft/code,6,1,code,string,319
+131,/order/slices[1]/segments[1]/flight/aircraft/description,6,1,description,string,Airbus A319
+132,/order/slices[1]/segments[1]/cabin,4,1,cabin,object,[object]
+133,/order/slices[1]/segments[1]/cabin/rbd,5,1,rbd,string,A
+134,/order/slices[1]/segments[1]/cabin/description,5,1,description,string,
+135,/order/slices[1]/segments[1]/cabin/remainingSeats,5,1,remainingSeats,number,0
+136,/order/slices[1]/segments[1]/cabin/fareFamily,5,1,fareFamily,string,TBAESEU
+137,/order/slices[1]/segments[1]/cabin/code,5,1,code,string,R
+138,/order/slices[1]/segments[1]/cabin/type,5,1,type,string,ECONOMY
+139,/order/slices[1]/segments[1]/cabin/bookingClass,5,1,bookingClass,string,ECONOMY
+140,/order/slices[1]/segments[1]/overnight,4,1,overnight,boolean,false
+141,/order/slices[1]/segments[1]/id,4,1,id,string,IB044820240207
+142,/order/slices[1]/segments[1]/duration,4,1,duration,number,65
+143,/order/slices[1]/segments[1]/waitingTime,4,1,waitingTime,number,0
+144,/order/slices[1]/segments[1]/operatorLocator,4,1,operatorLocator,object,null
+145,/order/slices[1]/segments[1]/stop,4,1,stop,object,null
+146,/order/slices[1]/segments[1]/departureDateTime,4,1,departureDateTime,string,2024-02-07 07:25
+147,/order/slices[1]/segments[1]/departureUtcDateTime,4,1,departureUtcDateTime,string,2024-02-07T06:25:00.000
+148,/order/slices[1]/segments[1]/arrivalDateTime,4,1,arrivalDateTime,string,2024-02-07 08:30
+149,/order/slices[1]/segments[1]/arrivalUtcDateTime,4,1,arrivalUtcDateTime,string,2024-02-07T07:30:00.000
+150,/order/slices[1]/segments[1]/status,4,1,status,object,[object]
+151,/order/slices[1]/segments[1]/status/code,5,1,code,string,HK
+152,/order/slices[1]/segments[1]/status/description,5,1,description,string,Confirmed
+153,/order/slices[1]/overnight,3,1,overnight,boolean,false
+154,/order/slices[1]/passengerFlags,3,1,passengerFlags,array,[objects]
+155,/order/slices[1]/passengerFlags[1]/passengerId,4,1,passengerId,string,ADULT_01
+156,/order/slices[1]/passengerFlags[1]/flags,4,1,flags,array,[objects]
+157,/order/slices[1]/passengerFlags[1]/flags[1]/type,5,1,type,string,FLIGHT_REFUND
+158,/order/slices[1]/passengerFlags[1]/flags[1]/enabled,5,1,enabled,boolean,true
+159,/order/slices[1]/passengerFlags[1]/flags[2]/type,5,2,type,string,FREQUENT_FLYER_MODIFICATION
+160,/order/slices[1]/passengerFlags[1]/flags[2]/enabled,5,2,enabled,boolean,true
+161,/order/slices[1]/passengerFlags[1]/flags[3]/type,5,3,type,string,SPECIAL_NEEDS_MODIFICATION
+162,/order/slices[1]/passengerFlags[1]/flags[3]/enabled,5,3,enabled,boolean,true
+163,/order/slices[1]/passengerFlags[1]/flags[4]/type,5,4,type,string,CONTACT_DATA_MODIFICATION
+164,/order/slices[1]/passengerFlags[1]/flags[4]/enabled,5,4,enabled,boolean,true
+165,/order/slices[1]/passengerFlags[1]/flags[5]/type,5,5,type,string,EMERGENCY_CONTACT_MODIFICATION
+166,/order/slices[1]/passengerFlags[1]/flags[5]/enabled,5,5,enabled,boolean,true
+167,/order/slices[1]/passengerFlags[1]/flags[6]/type,5,6,type,string,PASSENGER_NAME_CORRECTION
+168,/order/slices[1]/passengerFlags[1]/flags[6]/enabled,5,6,enabled,boolean,true
+169,/order/slices[1]/passengerFlags[1]/flags[7]/type,5,7,type,string,ANCILLARIES
+170,/order/slices[1]/passengerFlags[1]/flags[7]/enabled,5,7,enabled,boolean,true
+171,/order/slices[1]/passengerFlags[1]/flags[8]/type,5,8,type,string,FLIGHT_MODIFICATION
+172,/order/slices[1]/passengerFlags[1]/flags[8]/enabled,5,8,enabled,boolean,true
+173,/order/slices[1]/passengerFlags[1]/flags[9]/type,5,9,type,string,FLIGHT_DISRUPTION_SEARCH_FLEXIBLE
+174,/order/slices[1]/passengerFlags[1]/flags[9]/enabled,5,9,enabled,boolean,false
+175,/order/slices[1]/passengerFlags[1]/flags[10]/type,5,10,type,string,FLIGHT_MODIFICATION_FLEXIBLE
+176,/order/slices[1]/passengerFlags[1]/flags[10]/enabled,5,10,enabled,boolean,false
+177,/order/slices[1]/passengerFlags[1]/flags[11]/type,5,11,type,string,FLIGHT_DISRUPTION_SEARCH
+178,/order/slices[1]/passengerFlags[1]/flags[11]/enabled,5,11,enabled,boolean,false
+179,/order/slices[1]/passengerFlags[1]/flags[12]/type,5,12,type,string,FLIGHT_MODIFICATION_ON_DEMAND
+180,/order/slices[1]/passengerFlags[1]/flags[12]/enabled,5,12,enabled,boolean,false
+181,/order/price,2,1,price,object,[object]
+182,/order/price/fare,3,1,fare,number,28
+183,/order/price/tax,3,1,tax,number,20.22
+184,/order/price/total,3,1,total,number,48.22
+185,/order/price/currency,3,1,currency,string,EUR
+186,/order/price/ticketingFee,3,1,ticketingFee,number,0
+187,/order/primaryContactInfo,2,1,primaryContactInfo,object,[object]
+188,/order/primaryContactInfo/phone,3,1,phone,string,34612345678
+189,/order/primaryContactInfo/phoneDetails,3,1,phoneDetails,object,[object]
+190,/order/primaryContactInfo/phoneDetails/number,4,1,number,string,612345678
+191,/order/primaryContactInfo/phoneDetails/countryCode,4,1,countryCode,string,34
+192,/order/primaryContactInfo/email,3,1,email,string,ICIAR.GALLEGO@BABELGROUP.COM
+193,/order/primaryContactInfo/phoneType,3,1,phoneType,string,MOBILE
+194,/order/primaryContactInfo/confirmationMailOption,3,1,confirmationMailOption,object,null
+195,/order/primaryContactInfo/refundEmail,3,1,refundEmail,string,ICIAR.GALLEGO@BABELGROUP.COM
+196,/order/primaryContactInfo/language,3,1,language,object,null
+197,/order/optionalInformation,2,1,optionalInformation,object,[object]
+198,/order/optionalInformation/length,3,1,length,number,0
+199,/order/cashAviosPossibilities,2,1,cashAviosPossibilities,object,[object]
+200,/order/cashAviosPossibilities/length,3,1,length,number,0
+201,/order/specialDiscounts,2,1,specialDiscounts,object,[object]
+202,/order/specialDiscounts/length,3,1,length,number,0
+203,/order/checkedBagAllowances,2,1,checkedBagAllowances,array,[objects]
+204,/order/checkedBagAllowances[1]/type,3,1,type,string,PIECE
+205,/order/checkedBagAllowances[1]/segmentIds,3,1,segmentIds,strings,IB044820240207
+206,/order/checkedBagAllowances[1]/totalQuantity,3,1,totalQuantity,number,0
+207,/order/accrualQuote,2,1,accrualQuote,object,null
+208,/order/bookingCreationDates,2,1,bookingCreationDates,array,[objects]
+209,/order/bookingCreationDates[1]/creationDate,3,1,creationDate,string,2024-01-08
+210,/order/bookingCreationDates[1]/provider,3,1,provider,string,IB
+211,/order/sender,2,1,sender,object,null
+212,/order/officeIata,2,1,officeIata,string,7849644
+213,/order/availableForCheckin,2,1,availableForCheckin,boolean,false
+214,/order/earlyCheckinDone,2,1,earlyCheckinDone,boolean,false
+215,/order/changeSegmentsByAmadeus,2,1,changeSegmentsByAmadeus,boolean,false
+216,/order/orderType,2,1,orderType,string,PURE_IB
+217,/order/aviosRedeemed,2,1,aviosRedeemed,object,null
+218,/order/pointsRedeemed,2,1,pointsRedeemed,object,null
+219,/passengers,1,1,passengers,array,[objects]
+220,/passengers[1]/passengerType,2,1,passengerType,string,ADULT
+221,/passengers[1]/personalInfo,2,1,personalInfo,object,[object]
+222,/passengers[1]/personalInfo/name,3,1,name,string,TEST
+223,/passengers[1]/personalInfo/surname,3,1,surname,string,TEST
+224,/passengers[1]/personalInfo/birthDate,3,1,birthDate,object,null
+225,/passengers[1]/passengerId,2,1,passengerId,string,ADULT_01
+226,/passengers[1]/contactInfo,2,1,contactInfo,object,[object]
+227,/passengers[1]/contactInfo/phone,3,1,phone,string,34612345678
+228,/passengers[1]/contactInfo/phoneDetails,3,1,phoneDetails,object,[object]
+229,/passengers[1]/contactInfo/phoneDetails/number,4,1,number,string,612345678
+230,/passengers[1]/contactInfo/phoneDetails/countryCode,4,1,countryCode,string,34
+231,/passengers[1]/contactInfo/email,3,1,email,string,iciar.gallego@babelgroup.com
+232,/passengers[1]/contactInfo/phoneType,3,1,phoneType,string,MOBILE
+233,/passengers[1]/contactInfo/confirmationMailOption,3,1,confirmationMailOption,object,null
+234,/passengers[1]/contactInfo/refundEmail,3,1,refundEmail,object,null
+235,/passengers[1]/contactInfo/language,3,1,language,string,en
+236,/passengers[1]/relatedPassengerId,2,1,relatedPassengerId,string,
+237,/passengers[1]/ckiStatus,2,1,ckiStatus,object,null
+238,/passengers[1]/optionalInformation,2,1,optionalInformation,object,[object]
+239,/passengers[1]/optionalInformation/length,3,1,length,number,0
+240,/passengers[1]/residenceAccreditationStatus,2,1,residenceAccreditationStatus,object,null
+241,/passengers[1]/resiberPassengerId,2,1,resiberPassengerId,string,1
+242,/passengers[1]/securityInformation,2,1,securityInformation,object,[object]
+243,/passengers[1]/securityInformation/relatedContent,3,1,relatedContent,object,null
+244,/passengers[1]/externalPersonalInfo,2,1,externalPersonalInfo,object,[object]
+245,/passengers[1]/externalPersonalInfo/name,3,1,name,string,test
+246,/passengers[1]/externalPersonalInfo/firstSurname,3,1,firstSurname,string,test
+247,/passengers[1]/externalPersonalInfo/lastSurname,3,1,lastSurname,string,
+248,/tickets,1,1,tickets,array,[objects]
+249,/tickets[1]/ticketNumbers,2,1,ticketNumbers,strings,0751419216725
+250,/tickets[1]/type,2,1,type,string,ET
+251,/tickets[1]/orderItemId,2,1,orderItemId,string,IB46574b2a66dd4d969eff79b0196a8565OP_01
+252,/tickets[1]/passengerId,2,1,passengerId,string,ADULT_01
+253,/tickets[1]/issueDateTime,2,1,issueDateTime,string,2024-01-08 09:31
+254,/tickets[1]/fareCalculation,2,1,fareCalculation,string,MAD IB BIO28.00EUR28.00END
+255,/tickets[1]/taxes,2,1,taxes,array,[objects]
+256,/tickets[1]/taxes[1]/code,3,1,code,string,QV
+257,/tickets[1]/taxes[1]/amount,3,1,amount,number,3.6
+258,/tickets[1]/taxes[1]/currency,3,1,currency,string,EUR
+259,/tickets[1]/taxes[1]/description,3,1,description,string,
+260,/tickets[1]/taxes[1]/subcode,3,1,subcode,object,null
+261,/tickets[1]/taxes[1]/country,3,1,country,object,null
+262,/tickets[1]/taxes[1]/carrier,3,1,carrier,object,null
+263,/tickets[1]/taxes[2]/code,3,2,code,string,OG
+264,/tickets[1]/taxes[2]/amount,3,2,amount,number,0.69
+265,/tickets[1]/taxes[2]/currency,3,2,currency,string,EUR
+266,/tickets[1]/taxes[2]/description,3,2,description,string,
+267,/tickets[1]/taxes[2]/subcode,3,2,subcode,object,null
+268,/tickets[1]/taxes[2]/country,3,2,country,object,null
+269,/tickets[1]/taxes[2]/carrier,3,2,carrier,object,null
+270,/tickets[1]/taxes[3]/code,3,3,code,string,JD
+271,/tickets[1]/taxes[3]/amount,3,3,amount,number,15.93
+272,/tickets[1]/taxes[3]/currency,3,3,currency,string,EUR
+273,/tickets[1]/taxes[3]/description,3,3,description,string,
+274,/tickets[1]/taxes[3]/subcode,3,3,subcode,object,null
+275,/tickets[1]/taxes[3]/country,3,3,country,object,null
+276,/tickets[1]/taxes[3]/carrier,3,3,carrier,object,null
+277,/tickets[1]/coupons,2,1,coupons,array,[objects]
+278,/tickets[1]/coupons[1]/arrival,3,1,arrival,string,BIO
+279,/tickets[1]/coupons[1]/departure,3,1,departure,string,MAD
+280,/tickets[1]/coupons[1]/departureDate,3,1,departureDate,string,2024-02-07T07:25:00.000
+281,/tickets[1]/coupons[1]/status,3,1,status,string,OPEN FOR USE
+282,/tickets[1]/coupons[1]/fareBasis,3,1,fareBasis,string,ADNOB4
+283,/tickets[1]/coupons[1]/carrier,3,1,carrier,string,IB
+284,/tickets[1]/coupons[1]/flightNumber,3,1,flightNumber,string,0448
+285,/tickets[1]/coupons[1]/flightStatus,3,1,flightStatus,string,OK
+286,/tickets[1]/coupons[1]/operatingCarrier,3,1,operatingCarrier,object,null
+287,/tickets[1]/coupons[1]/bookingCode,3,1,bookingCode,string,A
+288,/tickets[1]/coupons[1]/designator,3,1,designator,string,
+289,/tickets[1]/coupons[1]/couponNumber,3,1,couponNumber,string,1
+290,/tickets[1]/coupons[1]/remark,3,1,remark,object,null
+291,/tickets[1]/coupons[1]/baggageDetail,3,1,baggageDetail,object,[object]
+292,/tickets[1]/coupons[1]/baggageDetail/freeAllowance,4,1,freeAllowance,number,0
+293,/tickets[1]/coupons[1]/baggageDetail/quantityCode,4,1,quantityCode,string,PC
+294,/tickets[1]/coupons[1]/baggageDetail/unitQualifier,4,1,unitQualifier,string,PC
+295,/tickets[1]/coupons[1]/disruptedRefundable,3,1,disruptedRefundable,boolean,false
+296,/tickets[1]/iataCode,2,1,iataCode,string,78496445
+297,/tickets[1]/issueCity,2,1,issueCity,string,MAD
+298,/tickets[1]/passengerType,2,1,passengerType,string,ADULT
+299,/tickets[1]/paymentInfo,2,1,paymentInfo,object,[object]
+300,/tickets[1]/paymentInfo/type,3,1,type,string,CREDIT_CARD
+301,/tickets[1]/paymentInfo/amount,3,1,amount,number,48.22
+302,/tickets[1]/emdsList,2,1,emdsList,object,[object]
+303,/tickets[1]/emdsList/length,3,1,length,number,0
+304,/tickets[1]/creditCardFeePrice,2,1,creditCardFeePrice,object,null
+305,/tickets[1]/conjunctionTickets,2,1,conjunctionTickets,object,null
+306,/tickets[1]/reissueHistory,2,1,reissueHistory,object,[object]
+307,/tickets[1]/reissueHistory/length,3,1,length,number,0
+308,/tickets[1]/taxedPrice,2,1,taxedPrice,object,[object]
+309,/tickets[1]/taxedPrice/fare,3,1,fare,number,28
+310,/tickets[1]/taxedPrice/tax,3,1,tax,number,20.22
+311,/tickets[1]/taxedPrice/total,3,1,total,number,48.22
+312,/tickets[1]/taxedPrice/currency,3,1,currency,string,EUR
+313,/tickets[1]/taxedPrice/ticketingFee,3,1,ticketingFee,number,0
+314,/paymentItems,1,1,paymentItems,array,[objects]
+315,/paymentItems[1]/type,2,1,type,string,IBERIA_PAY
+316,/paymentItems[1]/tokenizedCardNumber,2,1,tokenizedCardNumber,object,null
+317,/paymentItems[1]/maskedCardNumber,2,1,maskedCardNumber,object,null
+318,/paymentItems[1]/authorization,2,1,authorization,string,J02IT3
+319,/paymentItems[1]/subtotal,2,1,subtotal,number,48.22
+320,/paymentItems[1]/totalFee,2,1,totalFee,number,0
+321,/paymentItems[1]/total,2,1,total,number,48.22
+322,/paymentItems[1]/unityFee,2,1,unityFee,number,0
+323,/paymentItems[1]/currency,2,1,currency,string,EUR
+324,/paymentItems[1]/cofInclusion,2,1,cofInclusion,boolean,false
+325,/paymentItems[1]/dccApplied,2,1,dccApplied,object,null
+326,/contextMetadata,1,1,contextMetadata,object,[object]
+327,/contextMetadata/language,2,1,language,string,en
+328,/contextMetadata/country,2,1,country,string,ES
+329,/contextMetadata/currencies,2,1,currencies,array,[objects]
+330,/contextMetadata/currencies[1]/code,3,1,code,string,EUR
+331,/contextMetadata/currencies[1]/description,3,1,description,string,Euro
+332,/contextMetadata/currencies[1]/symbol,3,1,symbol,string,€
+333,/contextMetadata/currencies[1]/alignment,3,1,alignment,string,R
+334,/contextMetadata/currencies[1]/groupingSeparator,3,1,groupingSeparator,string,,
+335,/contextMetadata/currencies[1]/decimalSeparator,3,1,decimalSeparator,string,.
+336,/contextMetadata/currencies[1]/decimals,3,1,decimals,number,2
+337,/contextMetadata/currencies[1]/recommendedDisplay,3,1,recommendedDisplay,string,symbol
+338,/fareFamilyConditions,1,1,fareFamilyConditions,array,[objects]
+339,/fareFamilyConditions[1]/cabinType,2,1,cabinType,string,E
+340,/fareFamilyConditions[1]/cabinDescription,2,1,cabinDescription,string,Economy
+341,/fareFamilyConditions[1]/commercialCode,2,1,commercialCode,string,TBAESEU
+342,/fareFamilyConditions[1]/commercialName,2,1,commercialName,string,Basic
+343,/fareFamilyConditions[1]/commercialNameES,2,1,commercialNameES,string,Básica
+344,/fareFamilyConditions[1]/priority,2,1,priority,number,0
+345,/fareFamilyConditions[1]/conditions,2,1,conditions,array,[objects]
+346,/fareFamilyConditions[1]/conditions[1]/code,3,1,code,string,EQMANO
+347,/fareFamilyConditions[1]/conditions[1]/name,3,1,name,string,Hand baggage
+348,/fareFamilyConditions[1]/conditions[1]/text,3,1,text,string,1 item max. 10 kg (56x40x25cm) included.
+349,/fareFamilyConditions[1]/conditions[1]/units,3,1,units,number,1
+350,/fareFamilyConditions[1]/conditions[1]/extendedInfo,3,1,extendedInfo,object,[object]
+351,/fareFamilyConditions[1]/conditions[1]/extendedInfo/title,4,1,title,string,Hand luggage: 1 item
+352,/fareFamilyConditions[1]/conditions[1]/extendedInfo/message,4,1,message,string,1 item max. 10 kg (56x40x25cm) and 1 personal accessory included, on flights operated by oneworld airlines. For all other airlines, check with the flight operator.
+353,/fareFamilyConditions[1]/conditions[1]/extendedInfo/code,4,1,code,string,CA_EQP_MANO_10KG
+354,/fareFamilyConditions[1]/conditions[1]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,true
+355,/fareFamilyConditions[1]/conditions[2]/code,3,2,code,string,EQBODEGA
+356,/fareFamilyConditions[1]/conditions[2]/name,3,2,name,string,Baggage in hold
+357,/fareFamilyConditions[1]/conditions[2]/text,3,2,text,string,With a fee.
+358,/fareFamilyConditions[1]/conditions[2]/units,3,2,units,object,null
+359,/fareFamilyConditions[1]/conditions[2]/extendedInfo,3,2,extendedInfo,object,[object]
+360,/fareFamilyConditions[1]/conditions[2]/extendedInfo/title,4,1,title,string,Checked baggage not included
+361,/fareFamilyConditions[1]/conditions[2]/extendedInfo/message,4,1,message,string,With a fee.
+362,/fareFamilyConditions[1]/conditions[2]/extendedInfo/code,4,1,code,string,CA_1_PIEZAS_PAGO
+363,/fareFamilyConditions[1]/conditions[2]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+364,/fareFamilyConditions[1]/conditions[3]/code,3,3,code,string,COMIDA
+365,/fareFamilyConditions[1]/conditions[3]/name,3,3,name,string,Meal
+366,/fareFamilyConditions[1]/conditions[3]/text,3,3,text,string,With a fee.
+367,/fareFamilyConditions[1]/conditions[3]/units,3,3,units,object,null
+368,/fareFamilyConditions[1]/conditions[3]/extendedInfo,3,3,extendedInfo,object,[object]
+369,/fareFamilyConditions[1]/conditions[3]/extendedInfo/title,4,1,title,string,Meal not included
+370,/fareFamilyConditions[1]/conditions[3]/extendedInfo/message,4,1,message,string,With a fee.
+371,/fareFamilyConditions[1]/conditions[3]/extendedInfo/code,4,1,code,string,Comida_no_incluida
+372,/fareFamilyConditions[1]/conditions[3]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+373,/fareFamilyConditions[1]/conditions[4]/code,3,4,code,string,ASIENTO
+374,/fareFamilyConditions[1]/conditions[4]/name,3,4,name,string,Seat  selection
+375,/fareFamilyConditions[1]/conditions[4]/text,3,4,text,string,With a fee.
+376,/fareFamilyConditions[1]/conditions[4]/units,3,4,units,object,null
+377,/fareFamilyConditions[1]/conditions[4]/extendedInfo,3,4,extendedInfo,object,[object]
+378,/fareFamilyConditions[1]/conditions[4]/extendedInfo/title,4,1,title,string,Seat selection with a fee
+379,/fareFamilyConditions[1]/conditions[4]/extendedInfo/message,4,1,message,string,With a fee.
+380,/fareFamilyConditions[1]/conditions[4]/extendedInfo/code,4,1,code,string,CA_Asiento_Pago
+381,/fareFamilyConditions[1]/conditions[4]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+382,/fareFamilyConditions[1]/conditions[5]/code,3,5,code,string,CAMBIO
+383,/fareFamilyConditions[1]/conditions[5]/name,3,5,name,string,Change
+384,/fareFamilyConditions[1]/conditions[5]/text,3,5,text,string,Allowed with a fee; not allowed for no-shows.
+385,/fareFamilyConditions[1]/conditions[5]/units,3,5,units,number,65
+386,/fareFamilyConditions[1]/conditions[5]/extendedInfo,3,5,extendedInfo,object,[object]
+387,/fareFamilyConditions[1]/conditions[5]/extendedInfo/title,4,1,title,string,Flight change with a fee
+388,/fareFamilyConditions[1]/conditions[5]/extendedInfo/message,4,1,message,string,Allowed with a fee of EUR 65. Not allowed for no-shows.
+389,/fareFamilyConditions[1]/conditions[5]/extendedInfo/code,4,1,code,string,CA_CAMBIO CON PENALTY_65€_NO_SHOW_NO_PERMITIDO
+390,/fareFamilyConditions[1]/conditions[5]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+391,/fareFamilyConditions[1]/conditions[6]/code,3,6,code,string,REEMBOLSO
+392,/fareFamilyConditions[1]/conditions[6]/name,3,6,name,string,Refund (in each direction)
+393,/fareFamilyConditions[1]/conditions[6]/text,3,6,text,string,Not allowed.
+394,/fareFamilyConditions[1]/conditions[6]/units,3,6,units,object,null
+395,/fareFamilyConditions[1]/conditions[6]/extendedInfo,3,6,extendedInfo,object,[object]
+396,/fareFamilyConditions[1]/conditions[6]/extendedInfo/title,4,1,title,string,Not allowed
+397,/fareFamilyConditions[1]/conditions[6]/extendedInfo/message,4,1,message,string,Not allowed.
+398,/fareFamilyConditions[1]/conditions[6]/extendedInfo/code,4,1,code,string,CA_REEMBOLSO NO PERMITIDO
+399,/fareFamilyConditions[1]/conditions[6]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+400,/fareFamilyConditions[1]/conditions[7]/code,3,7,code,string,AVIO
+401,/fareFamilyConditions[1]/conditions[7]/name,3,7,name,string,AVIOS
+402,/fareFamilyConditions[1]/conditions[7]/text,3,7,text,string,Included.
+403,/fareFamilyConditions[1]/conditions[7]/units,3,7,units,object,null
+404,/fareFamilyConditions[1]/conditions[7]/extendedInfo,3,7,extendedInfo,object,[object]
+405,/fareFamilyConditions[1]/conditions[7]/extendedInfo/title,4,1,title,string,Avios awarded with purchase
+406,/fareFamilyConditions[1]/conditions[7]/extendedInfo/message,4,1,message,string,Included.
+407,/fareFamilyConditions[1]/conditions[7]/extendedInfo/code,4,1,code,string,AVIOS incluido
+408,/fareFamilyConditions[1]/conditions[7]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+409,/fareFamilyConditions[1]/conditions[8]/code,3,8,code,string,ASIENTODELANTERO
+410,/fareFamilyConditions[1]/conditions[8]/name,3,8,name,string,Front seat
+411,/fareFamilyConditions[1]/conditions[8]/text,3,8,text,string,With a fee.
+412,/fareFamilyConditions[1]/conditions[8]/units,3,8,units,object,null
+413,/fareFamilyConditions[1]/conditions[8]/extendedInfo,3,8,extendedInfo,object,[object]
+414,/fareFamilyConditions[1]/conditions[8]/extendedInfo/title,4,1,title,string,Front seat with a fee
+415,/fareFamilyConditions[1]/conditions[8]/extendedInfo/message,4,1,message,string,With a fee.
+416,/fareFamilyConditions[1]/conditions[8]/extendedInfo/code,4,1,code,string,CA_Asiento_Delantero_pago
+417,/fareFamilyConditions[1]/conditions[8]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+418,/fareFamilyConditions[1]/conditions[9]/code,3,9,code,string,WIFI
+419,/fareFamilyConditions[1]/conditions[9]/name,3,9,name,string,WiFi
+420,/fareFamilyConditions[1]/conditions[9]/text,3,9,text,string,Available with a fee, depending on aircraft type.
+421,/fareFamilyConditions[1]/conditions[9]/units,3,9,units,object,null
+422,/fareFamilyConditions[1]/conditions[9]/extendedInfo,3,9,extendedInfo,object,[object]
+423,/fareFamilyConditions[1]/conditions[9]/extendedInfo/title,4,1,title,string,Wi-Fi with a fee
+424,/fareFamilyConditions[1]/conditions[9]/extendedInfo/message,4,1,message,string,Available with a fee, depending on aircraft type.
+425,/fareFamilyConditions[1]/conditions[9]/extendedInfo/code,4,1,code,string,Wifi pago
+426,/fareFamilyConditions[1]/conditions[9]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+427,/fareFamilyConditions[1]/conditions[10]/code,3,10,code,string,EMBARQUE
+428,/fareFamilyConditions[1]/conditions[10]/name,3,10,name,string,Fast Boarding.
+429,/fareFamilyConditions[1]/conditions[10]/text,3,10,text,string,Not included.
+430,/fareFamilyConditions[1]/conditions[10]/units,3,10,units,object,null
+431,/fareFamilyConditions[1]/conditions[10]/extendedInfo,3,10,extendedInfo,object,[object]
+432,/fareFamilyConditions[1]/conditions[10]/extendedInfo/title,4,1,title,string,Priority boarding not included
+433,/fareFamilyConditions[1]/conditions[10]/extendedInfo/message,4,1,message,string,Not included.
+434,/fareFamilyConditions[1]/conditions[10]/extendedInfo/code,4,1,code,string,CA_Embarque_NO_Prioritario
+435,/fareFamilyConditions[1]/conditions[10]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+436,/fareFamilyConditions[1]/conditions[11]/code,3,11,code,string,CHECKINDESK
+437,/fareFamilyConditions[1]/conditions[11]/name,3,11,name,string,Exclusive check-in counter
+438,/fareFamilyConditions[1]/conditions[11]/text,3,11,text,string,Not included.
+439,/fareFamilyConditions[1]/conditions[11]/units,3,11,units,object,null
+440,/fareFamilyConditions[1]/conditions[11]/extendedInfo,3,11,extendedInfo,object,[object]
+441,/fareFamilyConditions[1]/conditions[11]/extendedInfo/title,4,1,title,string,Exclusive check-in desk not included
+442,/fareFamilyConditions[1]/conditions[11]/extendedInfo/message,4,1,message,string,Not included.
+443,/fareFamilyConditions[1]/conditions[11]/extendedInfo/code,4,1,code,string,Chek-in_desk_ NO
+444,/fareFamilyConditions[1]/conditions[11]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+445,/fareFamilyConditions[1]/conditions[12]/code,3,12,code,string,ASIENTOXL
+446,/fareFamilyConditions[1]/conditions[12]/name,3,12,name,string,Extra legroom seat
+447,/fareFamilyConditions[1]/conditions[12]/text,3,12,text,string,With a fee.
+448,/fareFamilyConditions[1]/conditions[12]/units,3,12,units,object,null
+449,/fareFamilyConditions[1]/conditions[12]/extendedInfo,3,12,extendedInfo,object,[object]
+450,/fareFamilyConditions[1]/conditions[12]/extendedInfo/title,4,1,title,string,Extra legroom seat with a fee
+451,/fareFamilyConditions[1]/conditions[12]/extendedInfo/message,4,1,message,string,With a fee.
+452,/fareFamilyConditions[1]/conditions[12]/extendedInfo/code,4,1,code,string,CA_Asiento_XL_Pago
+453,/fareFamilyConditions[1]/conditions[12]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+454,/fareFamilyConditions[1]/conditions[13]/code,3,13,code,string,EQPPRIOR
+455,/fareFamilyConditions[1]/conditions[13]/name,3,13,name,string,Priority baggage delivery
+456,/fareFamilyConditions[1]/conditions[13]/text,3,13,text,string,With a fee.
+457,/fareFamilyConditions[1]/conditions[13]/units,3,13,units,object,null
+458,/fareFamilyConditions[1]/conditions[13]/extendedInfo,3,13,extendedInfo,object,[object]
+459,/fareFamilyConditions[1]/conditions[13]/extendedInfo/title,4,1,title,string,Fast bag drop not included
+460,/fareFamilyConditions[1]/conditions[13]/extendedInfo/message,4,1,message,string,With a fee.
+461,/fareFamilyConditions[1]/conditions[13]/extendedInfo/code,4,1,code,string,Entrega_prioritaria_equipaje_ NO
+462,/fareFamilyConditions[1]/conditions[13]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+463,/fareFamilyConditions[1]/conditions[14]/code,3,14,code,string,FASTTRACK
+464,/fareFamilyConditions[1]/conditions[14]/name,3,14,name,string,Fast Track
+465,/fareFamilyConditions[1]/conditions[14]/text,3,14,text,string,Not included.
+466,/fareFamilyConditions[1]/conditions[14]/units,3,14,units,object,null
+467,/fareFamilyConditions[1]/conditions[14]/extendedInfo,3,14,extendedInfo,object,[object]
+468,/fareFamilyConditions[1]/conditions[14]/extendedInfo/title,4,1,title,string,Fast Track not included
+469,/fareFamilyConditions[1]/conditions[14]/extendedInfo/message,4,1,message,string,Not included.
+470,/fareFamilyConditions[1]/conditions[14]/extendedInfo/code,4,1,code,string,Fast Track NO
+471,/fareFamilyConditions[1]/conditions[14]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+472,/fareFamilyConditions[1]/conditions[15]/code,3,15,code,string,SALAVIP
+473,/fareFamilyConditions[1]/conditions[15]/name,3,15,name,string,Access to VIP lounges
+474,/fareFamilyConditions[1]/conditions[15]/text,3,15,text,string,Access not included.
+475,/fareFamilyConditions[1]/conditions[15]/units,3,15,units,object,null
+476,/fareFamilyConditions[1]/conditions[15]/extendedInfo,3,15,extendedInfo,object,[object]
+477,/fareFamilyConditions[1]/conditions[15]/extendedInfo/title,4,1,title,string,Access to VIP Lounge not included
+478,/fareFamilyConditions[1]/conditions[15]/extendedInfo/message,4,1,message,string,Access not included.
+479,/fareFamilyConditions[1]/conditions[15]/extendedInfo/code,4,1,code,string,Acceso a salas VIP No permitido
+480,/fareFamilyConditions[1]/conditions[15]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+481,/fareFamilyConditions[1]/conditions[16]/code,3,16,code,string,CABINA
+482,/fareFamilyConditions[1]/conditions[16]/name,3,16,name,string,Cabin
+483,/fareFamilyConditions[1]/conditions[16]/text,3,16,text,string,Economy.
+484,/fareFamilyConditions[1]/conditions[16]/units,3,16,units,object,null
+485,/fareFamilyConditions[1]/conditions[16]/extendedInfo,3,16,extendedInfo,object,[object]
+486,/fareFamilyConditions[1]/conditions[16]/extendedInfo/title,4,1,title,string,Economy Cabin
+487,/fareFamilyConditions[1]/conditions[16]/extendedInfo/message,4,1,message,string,Economy.
+488,/fareFamilyConditions[1]/conditions[16]/extendedInfo/code,4,1,code,string,CA_Cabina_Turista
+489,/fareFamilyConditions[1]/conditions[16]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+490,/fareFamilyConditions[1]/conditions[17]/code,3,17,code,string,ASIENTOPREFERENTE
+491,/fareFamilyConditions[1]/conditions[17]/name,3,17,name,string,Preferred seat
+492,/fareFamilyConditions[1]/conditions[17]/text,3,17,text,string,Not applicable.
+493,/fareFamilyConditions[1]/conditions[17]/units,3,17,units,object,null
+494,/fareFamilyConditions[1]/conditions[17]/extendedInfo,3,17,extendedInfo,object,[object]
+495,/fareFamilyConditions[1]/conditions[17]/extendedInfo/title,4,1,title,string,Preferred seat not applicable
+496,/fareFamilyConditions[1]/conditions[17]/extendedInfo/message,4,1,message,string,Not applicable.
+497,/fareFamilyConditions[1]/conditions[17]/extendedInfo/code,4,1,code,string,CA_Asiento_Preferente_NO_aplica
+498,/fareFamilyConditions[1]/conditions[17]/extendedInfo/conditionStatus,4,1,conditionStatus,boolean,false
+499,/fareFamilyConditions[1]/conditionsPriority,2,1,conditionsPriority,strings,EQMANO|EQBODEGA|COMIDA|ASIENTO|CAMBIO|REEMBOLSO
+500,/channel,1,1,channel,string,IBCOM
+501,/onHoldInformation,1,1,onHoldInformation,object,null
+502,/relatedContent,1,1,relatedContent,object,[object]
+503,/relatedContent/length,2,1,length,number,0
+504,/qualifiers,1,1,qualifiers,object,[object]
+505,/qualifiers/length,2,1,length,number,0
+506,/reportingWeb,1,1,reportingWeb,object,[object]
+507,/reportingWeb/device,2,1,device,string,DMRC
+508,/reportingWeb/idColective,2,1,idColective,string,
+509,/reportingWeb/officeIata,2,1,officeIata,string,MADIB08AB
+510,/reportingWeb/iata,2,1,iata,string,I
+511,/reportingWeb/product,2,1,product,string,1
+512,/flexibilizationCapabilitiesInformation,1,1,flexibilizationCapabilitiesInformation,object,null
+513,/genericDisruptionCapabilitiesInformation,1,1,genericDisruptionCapabilitiesInformation,object,null
+514,/upgInformation,1,1,upgInformation,object,[object]
+515,/upgInformation/url,2,1,url,object,null
+516,/upgInformation/flightsInformation,2,1,flightsInformation,object,null
+517,/upgInformation/bidable,2,1,bidable,boolean,false
+518,/orderFlags,1,1,orderFlags,array,[objects]
+519,/orderFlags[1]/type,2,1,type,string,PRINT_ITINERARY
+520,/orderFlags[1]/enabled,2,1,enabled,boolean,true
+521,/orderFlags[2]/type,2,2,type,string,ON_BUSINESS_MODIFICATION
+522,/orderFlags[2]/enabled,2,2,enabled,boolean,true
+523,/orderFlags[3]/type,2,3,type,string,ALLOWED_INVOICE_MANAGEMENT
+524,/orderFlags[3]/enabled,2,3,enabled,boolean,true
+525,/orderFlags[4]/type,2,4,type,string,VOUCHER_REFUND
+526,/orderFlags[4]/enabled,2,4,enabled,boolean,false
+527,/orderFlags[5]/type,2,5,type,string,CASH_REFUND
+528,/orderFlags[5]/enabled,2,5,enabled,boolean,false
+529,/orderFlags[6]/type,2,6,type,string,ALLOWED_REFUND_CASH
+530,/orderFlags[6]/enabled,2,6,enabled,boolean,false
+531,/orderFlags[7]/type,2,7,type,string,ALLOWED_REFUND_VOUCHER
+532,/orderFlags[7]/enabled,2,7,enabled,boolean,false
+533,/orderFlags[8]/type,2,8,type,string,ALLOWED_INVOLUNTARY_FLIGHT_CHANGE
+534,/orderFlags[8]/enabled,2,8,enabled,boolean,false
+535,/orderFlags[9]/type,2,9,type,string,ALLOWED_ACCEPT_CHANGES
+536,/orderFlags[9]/enabled,2,9,enabled,boolean,false
+537,/orderFlags[10]/type,2,10,type,string,ALLOWED_VOLUNTARY_REFUND_CASH
+538,/orderFlags[10]/enabled,2,10,enabled,boolean,true
+539,/orderFlags[11]/type,2,11,type,string,VOUCHER_REFUND_ON_DEMAND
+540,/orderFlags[11]/enabled,2,11,enabled,boolean,false
+541,/orderFlags[12]/type,2,12,type,string,VOUCHER_REFUND_RESTRICTION
+542,/orderFlags[12]/enabled,2,12,enabled,boolean,false
+543,/orderFlags[13]/type,2,13,type,string,ALLOWED_VOUCHER_COMPENSATION
+544,/orderFlags[13]/enabled,2,13,enabled,boolean,true

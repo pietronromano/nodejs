@@ -1,0 +1,754 @@
+{
+    "flowId": "TWFuYWdlTXlCb29raW5nQElCN2EyYThmMGI4ZjU4NGYzY2IwZTk2YzBlMGJkMGI0ZjY=",
+    "order": {
+        "orderId": "Qm9va2luZ0BJQjQ2NTc0YjJhNjZkZDRkOTY5ZWZmNzliMDE5NmE4NTY1T1A=",
+        "status": "ISSUED",
+        "clientLocator": "HHWC5",
+        "bookingReferences": [
+            {
+                "provider": "IB",
+                "reference": "HHWC5"
+            }
+        ],
+        "orderItems": [
+            {
+                "type": "flight",
+                "orderItemId": "IB46574b2a66dd4d969eff79b0196a8565OP_01",
+                "bookingReferences": [
+                    {
+                        "provider": "IB",
+                        "reference": "HHWC5"
+                    }
+                ],
+                "price": {
+                    "fare": 28.00,
+                    "tax": 20.22,
+                    "total": 48.22,
+                    "currency": "EUR",
+                    "ticketingFee": 0
+                },
+                "sliceIds": [
+                    "MADBIO20240207072500"
+                ],
+                "passengerPrices": [
+                    {
+                        "fareCalculation": "MAD IB BIO28.00EUR28.00END",
+                        "passengerId": "ADULT_01",
+                        "price": {
+                            "fare": 28.00,
+                            "tax": 20.22,
+                            "total": 48.22,
+                            "currency": "EUR",
+                            "ticketingFee": 0
+                        },
+                        "segmentPrices": [
+                            {
+                                "price": {
+                                    "fare": 28.00,
+                                    "currency": "EUR"
+                                },
+                                "fareCode": "ADNOB4",
+                                "segmentsIds": [
+                                    "IB044820240207"
+                                ],
+                                "ticketDesignator": null,
+                                "penalties": [],
+                                "penaltyFlags": null
+                            }
+                        ],
+                        "taxes": [
+                            {
+                                "code": "QV",
+                                "amount": 3.60,
+                                "currency": "EUR",
+                                "description": "Security",
+                                "subcode": null,
+                                "country": null,
+                                "carrier": null
+                            },
+                            {
+                                "code": "OG",
+                                "amount": 0.69,
+                                "currency": "EUR",
+                                "description": "Security Tax",
+                                "subcode": null,
+                                "country": null,
+                                "carrier": null
+                            },
+                            {
+                                "code": "JD",
+                                "amount": 15.93,
+                                "currency": "EUR",
+                                "description": "Departure Charge",
+                                "subcode": null,
+                                "country": null,
+                                "carrier": null
+                            }
+                        ],
+                        "orderItemPaymentInfos": []
+                    }
+                ]
+            }
+        ],
+        "slices": [
+            {
+                "sliceId": "MADBIO20240207072500",
+                "type": "REGULAR",
+                "departureDateTime": "2024-02-07 07:25",
+                "arrivalDateTime": "2024-02-07 08:30",
+                "duration": 65,
+                "stopsNumber": 0,
+                "detailedPrices": [
+                    {
+                        "fare": 0.00,
+                        "currency": null,
+                        "passengerIds": [
+                            "ADULT_01"
+                        ],
+                        "segmentPrices": []
+                    }
+                ],
+                "segments": [
+                    {
+                        "type": "CONFIRMED",
+                        "mmbAllowed": true,
+                        "ckiStatus": {
+                            "code": "CHECKABLE",
+                            "message": null
+                        },
+                        "noShow": false,
+                        "flyNow": false,
+                        "flown": false,
+                        "departure": {
+                            "code": "MAD",
+                            "name": "BARAJAS",
+                            "terminal": "4",
+                            "city": {
+                                "code": "MAD",
+                                "description": "Madrid",
+                                "countryCode": "ES",
+                                "country": {
+                                    "code": "ES",
+                                    "description": "Spain"
+                                }
+                            }
+                        },
+                        "arrival": {
+                            "code": "BIO",
+                            "name": "AIRPORT",
+                            "terminal": null,
+                            "city": {
+                                "code": "BIO",
+                                "description": "Bilbao",
+                                "countryCode": "ES",
+                                "country": {
+                                    "code": "ES",
+                                    "description": "Spain"
+                                }
+                            }
+                        },
+                        "departureCity": {
+                            "code": "MAD",
+                            "description": "Madrid",
+                            "countryCode": "ES",
+                            "timeZone": "Europe/Madrid"
+                        },
+                        "arrivalCity": {
+                            "code": "BIO",
+                            "description": "Bilbao",
+                            "countryCode": "ES",
+                            "timeZone": "Europe/Madrid"
+                        },
+                        "flight": {
+                            "marketingCarrier": {
+                                "code": "IB",
+                                "name": "Iberia"
+                            },
+                            "operationalCarrier": {
+                                "code": "IB",
+                                "name": "Iberia"
+                            },
+                            "marketingFlightNumber": "0448",
+                            "operationalFlightNumber": "0448",
+                            "operationalDisclosure": "IB",
+                            "aircraft": {
+                                "code": "319",
+                                "description": "Airbus A319"
+                            }
+                        },
+                        "cabin": {
+                            "rbd": "A",
+                            "description": "",
+                            "remainingSeats": 0,
+                            "fareFamily": "TBAESEU",
+                            "code": "R",
+                            "type": "ECONOMY",
+                            "bookingClass": "ECONOMY"
+                        },
+                        "overnight": false,
+                        "id": "IB044820240207",
+                        "duration": 65,
+                        "waitingTime": 0,
+                        "operatorLocator": null,
+                        "stop": null,
+                        "departureDateTime": "2024-02-07 07:25",
+                        "departureUtcDateTime": "2024-02-07T06:25:00.000",
+                        "arrivalDateTime": "2024-02-07 08:30",
+                        "arrivalUtcDateTime": "2024-02-07T07:30:00.000",
+                        "status": {
+                            "code": "HK",
+                            "description": "Confirmed"
+                        }
+                    }
+                ],
+                "overnight": false,
+                "passengerFlags": [
+                    {
+                        "passengerId": "ADULT_01",
+                        "flags": [
+                            {
+                                "type": "FLIGHT_REFUND",
+                                "enabled": true
+                            },
+                            {
+                                "type": "FREQUENT_FLYER_MODIFICATION",
+                                "enabled": true
+                            },
+                            {
+                                "type": "SPECIAL_NEEDS_MODIFICATION",
+                                "enabled": true
+                            },
+                            {
+                                "type": "CONTACT_DATA_MODIFICATION",
+                                "enabled": true
+                            },
+                            {
+                                "type": "EMERGENCY_CONTACT_MODIFICATION",
+                                "enabled": true
+                            },
+                            {
+                                "type": "PASSENGER_NAME_CORRECTION",
+                                "enabled": true
+                            },
+                            {
+                                "type": "ANCILLARIES",
+                                "enabled": true
+                            },
+                            {
+                                "type": "FLIGHT_MODIFICATION",
+                                "enabled": true
+                            },
+                            {
+                                "type": "FLIGHT_DISRUPTION_SEARCH_FLEXIBLE",
+                                "enabled": false
+                            },
+                            {
+                                "type": "FLIGHT_MODIFICATION_FLEXIBLE",
+                                "enabled": false
+                            },
+                            {
+                                "type": "FLIGHT_DISRUPTION_SEARCH",
+                                "enabled": false
+                            },
+                            {
+                                "type": "FLIGHT_MODIFICATION_ON_DEMAND",
+                                "enabled": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "price": {
+            "fare": 28.00,
+            "tax": 20.22,
+            "total": 48.22,
+            "currency": "EUR",
+            "ticketingFee": 0.00
+        },
+        "primaryContactInfo": {
+            "phone": "34612345678",
+            "phoneDetails": {
+                "number": "612345678",
+                "countryCode": "34"
+            },
+            "email": "ICIAR.GALLEGO@BABELGROUP.COM",
+            "phoneType": "MOBILE",
+            "confirmationMailOption": null,
+            "refundEmail": "ICIAR.GALLEGO@BABELGROUP.COM",
+            "language": null
+        },
+        "optionalInformation": [],
+        "cashAviosPossibilities": [],
+        "specialDiscounts": [],
+        "checkedBagAllowances": [
+            {
+                "type": "PIECE",
+                "segmentIds": [
+                    "IB044820240207"
+                ],
+                "totalQuantity": 0
+            }
+        ],
+        "accrualQuote": null,
+        "bookingCreationDates": [
+            {
+                "creationDate": "2024-01-08",
+                "provider": "IB"
+            }
+        ],
+        "sender": null,
+        "officeIata": "7849644",
+        "availableForCheckin": false,
+        "earlyCheckinDone": false,
+        "changeSegmentsByAmadeus": false,
+        "orderType": "PURE_IB",
+        "aviosRedeemed": null,
+        "pointsRedeemed": null
+    },
+    "passengers": [
+        {
+            "passengerType": "ADULT",
+            "personalInfo": {
+                "name": "TEST",
+                "surname": "TEST",
+                "birthDate": null
+            },
+            "passengerId": "ADULT_01",
+            "contactInfo": {
+                "phone": "34612345678",
+                "phoneDetails": {
+                    "number": "612345678",
+                    "countryCode": "34"
+                },
+                "email": "iciar.gallego@babelgroup.com",
+                "phoneType": "MOBILE",
+                "confirmationMailOption": null,
+                "refundEmail": null,
+                "language": "en"
+            },
+            "relatedPassengerId": "",
+            "ckiStatus": null,
+            "optionalInformation": [],
+            "residenceAccreditationStatus": null,
+            "resiberPassengerId": "1",
+            "securityInformation": {
+                "relatedContent": null
+            },
+            "externalPersonalInfo": {
+                "name": "test",
+                "firstSurname": "test",
+                "lastSurname": ""
+            }
+        }
+    ],
+    "tickets": [
+        {
+            "ticketNumbers": [
+                "0751419216725"
+            ],
+            "type": "ET",
+            "orderItemId": "IB46574b2a66dd4d969eff79b0196a8565OP_01",
+            "passengerId": "ADULT_01",
+            "issueDateTime": "2024-01-08 09:31",
+            "fareCalculation": "MAD IB BIO28.00EUR28.00END",
+            "taxes": [
+                {
+                    "code": "QV",
+                    "amount": 3.60,
+                    "currency": "EUR",
+                    "description": "",
+                    "subcode": null,
+                    "country": null,
+                    "carrier": null
+                },
+                {
+                    "code": "OG",
+                    "amount": 0.69,
+                    "currency": "EUR",
+                    "description": "",
+                    "subcode": null,
+                    "country": null,
+                    "carrier": null
+                },
+                {
+                    "code": "JD",
+                    "amount": 15.93,
+                    "currency": "EUR",
+                    "description": "",
+                    "subcode": null,
+                    "country": null,
+                    "carrier": null
+                }
+            ],
+            "coupons": [
+                {
+                    "arrival": "BIO",
+                    "departure": "MAD",
+                    "departureDate": "2024-02-07T07:25:00.000",
+                    "status": "OPEN FOR USE",
+                    "fareBasis": "ADNOB4",
+                    "carrier": "IB",
+                    "flightNumber": "0448",
+                    "flightStatus": "OK",
+                    "operatingCarrier": null,
+                    "bookingCode": "A",
+                    "designator": "",
+                    "couponNumber": "1",
+                    "remark": null,
+                    "baggageDetail": {
+                        "freeAllowance": 0,
+                        "quantityCode": "PC",
+                        "unitQualifier": "PC"
+                    },
+                    "disruptedRefundable": false
+                }
+            ],
+            "iataCode": "78496445",
+            "issueCity": "MAD",
+            "passengerType": "ADULT",
+            "paymentInfo": {
+                "type": "CREDIT_CARD",
+                "amount": 48.22
+            },
+            "emdsList": [],
+            "creditCardFeePrice": null,
+            "conjunctionTickets": null,
+            "reissueHistory": [],
+            "taxedPrice": {
+                "fare": 28.00,
+                "tax": 20.22,
+                "total": 48.22,
+                "currency": "EUR",
+                "ticketingFee": 0
+            }
+        }
+    ],
+    "paymentItems": [
+        {
+            "type": "IBERIA_PAY",
+            "tokenizedCardNumber": null,
+            "maskedCardNumber": null,
+            "authorization": "J02IT3",
+            "subtotal": 48.22,
+            "totalFee": 0.00,
+            "total": 48.22,
+            "unityFee": 0.00,
+            "currency": "EUR",
+            "cofInclusion": false,
+            "dccApplied": null
+        }
+    ],
+    "contextMetadata": {
+        "language": "en",
+        "country": "ES",
+        "currencies": [
+            {
+                "code": "EUR",
+                "description": "Euro",
+                "symbol": "€",
+                "alignment": "R",
+                "groupingSeparator": ",",
+                "decimalSeparator": ".",
+                "decimals": 2,
+                "recommendedDisplay": "symbol"
+            }
+        ]
+    },
+    "fareFamilyConditions": [
+        {
+            "cabinType": "E",
+            "cabinDescription": "Economy",
+            "commercialCode": "TBAESEU",
+            "commercialName": "Basic",
+            "commercialNameES": "Básica",
+            "priority": 0,
+            "conditions": [
+                {
+                    "code": "EQMANO",
+                    "name": "Hand baggage",
+                    "text": "1 item max. 10 kg (56x40x25cm) included.",
+                    "units": 1,
+                    "extendedInfo": {
+                        "title": "Hand luggage: 1 item",
+                        "message": "1 item max. 10 kg (56x40x25cm) and 1 personal accessory included, on flights operated by oneworld airlines. For all other airlines, check with the flight operator.",
+                        "code": "CA_EQP_MANO_10KG",
+                        "conditionStatus": true
+                    }
+                },
+                {
+                    "code": "EQBODEGA",
+                    "name": "Baggage in hold",
+                    "text": "With a fee.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Checked baggage not included",
+                        "message": "With a fee.",
+                        "code": "CA_1_PIEZAS_PAGO",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "COMIDA",
+                    "name": "Meal",
+                    "text": "With a fee.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Meal not included",
+                        "message": "With a fee.",
+                        "code": "Comida_no_incluida",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "ASIENTO",
+                    "name": "Seat  selection",
+                    "text": "With a fee.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Seat selection with a fee",
+                        "message": "With a fee.",
+                        "code": "CA_Asiento_Pago",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "CAMBIO",
+                    "name": "Change",
+                    "text": "Allowed with a fee; not allowed for no-shows.",
+                    "units": 65,
+                    "extendedInfo": {
+                        "title": "Flight change with a fee",
+                        "message": "Allowed with a fee of EUR 65. Not allowed for no-shows.",
+                        "code": "CA_CAMBIO CON PENALTY_65€_NO_SHOW_NO_PERMITIDO",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "REEMBOLSO",
+                    "name": "Refund (in each direction)",
+                    "text": "Not allowed.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Not allowed",
+                        "message": "Not allowed.",
+                        "code": "CA_REEMBOLSO NO PERMITIDO",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "AVIO",
+                    "name": "AVIOS",
+                    "text": "Included.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Avios awarded with purchase",
+                        "message": "Included.",
+                        "code": "AVIOS incluido",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "ASIENTODELANTERO",
+                    "name": "Front seat",
+                    "text": "With a fee.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Front seat with a fee",
+                        "message": "With a fee.",
+                        "code": "CA_Asiento_Delantero_pago",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "WIFI",
+                    "name": "WiFi",
+                    "text": "Available with a fee, depending on aircraft type.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Wi-Fi with a fee",
+                        "message": "Available with a fee, depending on aircraft type.",
+                        "code": "Wifi pago",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "EMBARQUE",
+                    "name": "Fast Boarding.",
+                    "text": "Not included.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Priority boarding not included",
+                        "message": "Not included.",
+                        "code": "CA_Embarque_NO_Prioritario",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "CHECKINDESK",
+                    "name": "Exclusive check-in counter",
+                    "text": "Not included.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Exclusive check-in desk not included",
+                        "message": "Not included.",
+                        "code": "Chek-in_desk_ NO",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "ASIENTOXL",
+                    "name": "Extra legroom seat",
+                    "text": "With a fee.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Extra legroom seat with a fee",
+                        "message": "With a fee.",
+                        "code": "CA_Asiento_XL_Pago",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "EQPPRIOR",
+                    "name": "Priority baggage delivery",
+                    "text": "With a fee.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Fast bag drop not included",
+                        "message": "With a fee.",
+                        "code": "Entrega_prioritaria_equipaje_ NO",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "FASTTRACK",
+                    "name": "Fast Track",
+                    "text": "Not included.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Fast Track not included",
+                        "message": "Not included.",
+                        "code": "Fast Track NO",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "SALAVIP",
+                    "name": "Access to VIP lounges",
+                    "text": "Access not included.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Access to VIP Lounge not included",
+                        "message": "Access not included.",
+                        "code": "Acceso a salas VIP No permitido",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "CABINA",
+                    "name": "Cabin",
+                    "text": "Economy.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Economy Cabin",
+                        "message": "Economy.",
+                        "code": "CA_Cabina_Turista",
+                        "conditionStatus": false
+                    }
+                },
+                {
+                    "code": "ASIENTOPREFERENTE",
+                    "name": "Preferred seat",
+                    "text": "Not applicable.",
+                    "units": null,
+                    "extendedInfo": {
+                        "title": "Preferred seat not applicable",
+                        "message": "Not applicable.",
+                        "code": "CA_Asiento_Preferente_NO_aplica",
+                        "conditionStatus": false
+                    }
+                }
+            ],
+            "conditionsPriority": [
+                "EQMANO",
+                "EQBODEGA",
+                "COMIDA",
+                "ASIENTO",
+                "CAMBIO",
+                "REEMBOLSO"
+            ]
+        }
+    ],
+    "channel": "IBCOM",
+    "onHoldInformation": null,
+    "relatedContent": [],
+    "qualifiers": [],
+    "reportingWeb": {
+        "device": "DMRC",
+        "idColective": "",
+        "officeIata": "MADIB08AB",
+        "iata": "I",
+        "product": "1"
+    },
+    "flexibilizationCapabilitiesInformation": null,
+    "genericDisruptionCapabilitiesInformation": null,
+    "upgInformation": {
+        "url": null,
+        "flightsInformation": null,
+        "bidable": false
+    },
+    "orderFlags": [
+        {
+            "type": "PRINT_ITINERARY",
+            "enabled": true
+        },
+        {
+            "type": "ON_BUSINESS_MODIFICATION",
+            "enabled": true
+        },
+        {
+            "type": "ALLOWED_INVOICE_MANAGEMENT",
+            "enabled": true
+        },
+        {
+            "type": "VOUCHER_REFUND",
+            "enabled": false
+        },
+        {
+            "type": "CASH_REFUND",
+            "enabled": false
+        },
+        {
+            "type": "ALLOWED_REFUND_CASH",
+            "enabled": false
+        },
+        {
+            "type": "ALLOWED_REFUND_VOUCHER",
+            "enabled": false
+        },
+        {
+            "type": "ALLOWED_INVOLUNTARY_FLIGHT_CHANGE",
+            "enabled": false
+        },
+        {
+            "type": "ALLOWED_ACCEPT_CHANGES",
+            "enabled": false
+        },
+        {
+            "type": "ALLOWED_VOLUNTARY_REFUND_CASH",
+            "enabled": true
+        },
+        {
+            "type": "VOUCHER_REFUND_ON_DEMAND",
+            "enabled": false
+        },
+        {
+            "type": "VOUCHER_REFUND_RESTRICTION",
+            "enabled": false
+        },
+        {
+            "type": "ALLOWED_VOUCHER_COMPENSATION",
+            "enabled": true
+        }
+    ]
+}

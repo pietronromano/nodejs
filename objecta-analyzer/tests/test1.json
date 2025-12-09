@@ -1,0 +1,21 @@
+{
+    "flowId": "TWFuYWdlTXlCb29",
+    "order": {
+        "orderId": "Qm9va2luZ0BJQjQ2",
+        "status": "ISSUED",
+        "codes" : ["C1","C2","C3"],
+        "bookingReferences": [
+            {
+                "provider": "IB",
+                "reference": "HHWC5"
+            },
+            {
+                "provider": "IB-2",
+                "reference": "HHWC5-2"
+            }
+        ],
+        "officeIata": "7849644",
+        "amount": 100
+    },
+    "channel": "IBCOM"
+}

@@ -1,0 +1,10 @@
+id,diagram,c4Application,c4Name,c4Container,c4Parent,c4RelSource,c4RelTarget,c4RelIsTargetOf,c4RelIsSourceOf,c4Path,c4Technology,c4Type,c4Description
+vRPXPys7TA58x-2aIRL0-1,Diagram 1,,A System Scope,,Outer System Scope,,,,,/Outer System Scope/A System Scope,SystemScopeBoundary,SystemScopeBoundary,,
+vRPXPys7TA58x-2aIRL0-2,Diagram 1,,Apps,Container,A System Scope,,,Apps Front Sync/Info Updates,Retrieve Order View (OrderId| ViewId) Header(Channel Apps)/Apps API,/Outer System Scope/A System Scope/Apps,e.g. JavaScript| Angular etc.,Apps,Description of web browser container role/responsibility.,
+vRPXPys7TA58x-2aIRL0-3,Diagram 1,,NAME MISSING! Type:Relationship,,,vRPXPys7TA58x-2aIRL0-2,vRPXPys7TA58x-2aIRL0-6,,,/NAME MISSING! Type:Relationship,JSON/HTTP,Relationship,Retrieve Order View (OrderId| ViewId) Header(Channel Apps),
+vRPXPys7TA58x-2aIRL0-4,Diagram 1,,Web,Container,A System Scope,,,,,/Outer System Scope/A System Scope/Web,e.g. JavaScript| Angular etc.,Web,Description of web browser container role/responsibility.,
+vRPXPys7TA58x-2aIRL0-5,Diagram 1,,Apps Front Sync,,,,,,Info Updates/Apps,/Apps Front Sync,AWS AppSync WebSocket,Container,Description of container role/responsibility.,
+vRPXPys7TA58x-2aIRL0-6,Diagram 1,,Apps API,,,,,Apps/Retrieve Order View (OrderId| ViewId) Header(Channel Apps),,/Apps API,e.g. SpringBoot| ElasticSearch| etc.,Container,Description of container role/responsibility.,
+vRPXPys7TA58x-2aIRL0-7,Diagram 1,,NAME MISSING! Type:Relationship,,,vRPXPys7TA58x-2aIRL0-5,vRPXPys7TA58x-2aIRL0-2,,,/NAME MISSING! Type:Relationship,websocket,Relationship,Info Updates,
+kkSFUOy7Z4dc9xrL5XKB-1,Diagram 1,,Outer System Scope,,,,,,,/Outer System Scope,SystemScopeBoundary,SystemScopeBoundary,,
+0r_vkbNoKptjcduP7u9Z-1,Diagram 2,,In another diagram,Container,Commercial Channels,,,,,/In another diagram,e.g. JavaScript| Angular etc.,Apps,Description of web browser container role/responsibility.,
