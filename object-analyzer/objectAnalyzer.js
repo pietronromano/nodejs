@@ -20,8 +20,8 @@ const writeToFile = (outputArray,outputFilePath, sort = false) =>{
             return 0;
         });
     }
-    var columns = "id,path,level,index,property,type,value";
-    utils.writeToFile(outputArray,outputFilePath,columns.split(COLUMN_SEPARATOR));
+    const columns = ["id", "path", "level", "property", "type", "value"];
+    utils.writeToFile(outputArray,outputFilePath,columns);
 }
 
 /**
@@ -32,25 +32,22 @@ const writeToFile = (outputArray,outputFilePath, sort = false) =>{
  * @param {*} val 
  * @returns 
 */
-const addToList = (outputArray, path, property,val, propertyType,arrayIndex) => {
+const addToList = (outputArray, path, property,val, propertyType) => {
     const level = path.split(PATH_SEPARATOR).length -1;
     const id = outputArray.length + 1;
     if(!propertyType)
         propertyType = typeof val;
 
-    if(!arrayIndex)
-        arrayIndex = 1;
     //Remove unwanted characters
     val = utils.ensureValidColValue(val);
 
     var item = {
             id: id, 
             property: property, 
-            val: val, 
+            value: val, 
             path: path,
             level: level,
-            arrayIndex: arrayIndex,
-            propertyType: propertyType};
+            type: propertyType};
     
     outputArray.push(item);
     return item;

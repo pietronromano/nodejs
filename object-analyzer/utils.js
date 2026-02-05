@@ -27,19 +27,17 @@ const ensureValidColValue = (val) => {
 }
 
 const cleanString = (val) => {
-    if(!val)
+    if(val == undefined || val == null || val == "")
         return "";
     if(typeof val != "string") 
         return val;
-    if(val.search(COLUMN_SEPARATOR)) 
+    if(val.search(COLUMN_SEPARATOR) >=0) 
         val = val.replace(regExCol,COLUMN_REPLACER);
-    if(val.search("\n"))
+    if(val.search("\n") >=0)
         val = val.replace(regExNL,LINE_REPLACER);
 
     return val;
 }
-
-
 
 /**
  * 
