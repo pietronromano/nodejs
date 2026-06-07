@@ -12,9 +12,9 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/app.js",
-            "args": ["json","tests/copilot-metrics-org_Pluxee-Sandbox_20260204_170140.json","tests/copilot-metrics-org.csv"]
-            //"args": ["json","tests/test1.json","tests/objectAnalysis.csv"]
-            //"args": ["xml","tests/Tests-ObjectAnalyzer.drawio.xml","tests/c4.csv", "c4"]
+            "args": ["xml","inputs/c4-template.drawio","outputs", "c4"]
+            //"args": ["json","inputs/test1.json","outputs"]
+           
         }
     ]
 }

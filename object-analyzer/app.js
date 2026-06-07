@@ -1,6 +1,7 @@
 const fs = require('fs')
 const xml2js = require('xml2js');  
-  
+const path = require('path');
+const utils = require('./utils');
 
 let objectAnalyzer = require('./objectAnalyzer');
 const c4 = require('./c4Analyzer');
@@ -8,25 +9,33 @@ const c4 = require('./c4Analyzer');
 var args = process.argv;
 const inputFileFormat = args[2]; // json|xml
 const inputFilePath = args[3]; //example: "tests/test1.json"
-let outputFilePath = args[4]; //example: "tests/objectAnalysis.csv"
+let outputFileDir = args[4]; //example: "tests/objectAnalysis.csv"
 const options = args[5]; // c4
 
 if(!inputFilePath) {
-  console.log("Missing Arguments: usage: app.js inputFileFormat:[json|xml] inputFilePath [outputFilePath] options[c4]");
+  console.log("Missing Arguments: usage: app.js inputFileFormat:[json|xml] inputFilePath [outputFileDir] options[c4]");
   return;
 }
-if(!outputFilePath) 
-  outputFilePath = inputFilePath + "_output.csv";
+if(!outputFileDir) {
+  console.log("Missing Arguments: usage: app.js inputFileFormat:[json|xml] inputFilePath [outputFileDir] options[c4]");
+  return;
+}
 
 const outputArray =  [];
+// Get current date in YYYY-MM-DD format for timestamping output files
+const processDateTime = utils.getFormatedDateTime({separator: "-"}); 
+console.log(`processDateTime: ${processDateTime}`);
 
 const analyze = (obj, options) =>  {
-  if(options == "c4")
+  if(options == "c4") {
     objectAnalyzer = c4;
+  } 
 
   objectAnalyzer.analyzeProperties(outputArray,obj);
-  objectAnalyzer.writeToFile(outputArray,outputFilePath)
+  const outputFilePath = path.join(outputFileDir, `objectAnalysis_${processDateTime}.csv`);
+  objectAnalyzer.writeToFile(outputArray, outputFilePath);
   console.log("File written to: " + outputFilePath);
+
 }
 
 try {

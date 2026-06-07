@@ -1,8 +1,19 @@
+/*
+References:
+C4: https://c4model.com/
+Draw.io-C4: https://www.drawio.com/docs/diagram-types/c4-modelling/
+Examples: https://medium.com/news-uk-technology/c4-model-a-better-way-to-visualise-software-architecture-df41e5ac57b8
+- C4: https://c4model.com/
+- Draw.io-C4: https://www.drawio.com/docs/diagram-types/c4-modelling/
+- Examples: https://medium.com/news-uk-technology/c4-model-a-better-way-to-visualise-software-architecture-df41e5ac57b8
+
+
+*/
 const fs = require('fs')
 const utils = require('./utils');
 
-const COLUMN_SEPARATOR = ",";
 const PATH_SEPARATOR = "/";
+const FLOW_SEPARATOR = "->";
 
 /**
  * 
@@ -11,9 +22,8 @@ const PATH_SEPARATOR = "/";
  * @param {*} sort 
  */
 const writeToFile = (outputArray,outputFilePath) =>{
-    var columns = "id,diagram,c4Application,c4Name,c4Container,c4Parent,"
-     +  "c4RelSource,c4RelTarget,c4RelIsTargetOf,c4RelIsSourceOf,c4Path,c4Technology,c4Type,c4Description";
-    utils.writeToFile(outputArray,outputFilePath,columns.split(COLUMN_SEPARATOR));
+    const columnNames = Object.getOwnPropertyNames(outputArray[0]);
+    utils.writeToFile(outputArray,outputFilePath,columnNames);
 }
 
 /**
@@ -29,43 +39,44 @@ const analyzeProperties = (outputArray,obj)  =>{
 
     diagrams.forEach (d => {
         var elements = d.mxGraphModel[0].root[0].object;
-        if(elements) {
-            elements.forEach (e => {
-                if(e.$.c4Type) {
-                    var c4Element = {
-                        diagram:  d.$.name,
-                        id: e.$.id,
-                        parentId: "",
-                        parentElement: undefined,
-                        c4Name: e.$.c4Name, 
-                        c4Application: e.$.c4Application, 
-                        c4Container: e.$.c4Container,
-                        c4Parent: e.$.c4Parent,
-                        c4Path: e.$.c4Path,
-                        c4Description: e.$.c4Description, 
-                        c4Technology: e.$.c4Technology, 
-                        c4Type: e.$.c4Type,
-                        c4RelTarget: e.mxCell[0].$.target,
-                        c4RelSource: e.mxCell[0].$.source,
-                        c4RelIsTargetOf:[],
-                        c4RelIsSourceOf: []
-                    };
+        if(!elements || d.$.name === "Toolbox") 
+            return;//skip to next diagram if no elements (return is for the forEach loop, not the function)
+        
+        elements.forEach (e => {
+            if(!e.$.c4Type) 
+                return; //skip to next element if no c4Type (return is for the forEach loop, not the function)
+            var c4Element = {
+                diagram:  d.$.name,
+                id: e.$.id,
+                parentId: "",
+                parentElement: undefined,
+                c4Name: e.$.c4Name, 
+                c4Type: e.$.c4Type,
+                c4Parent: e.$.c4Parent,
+                c4Path: e.$.c4Path,
+                c4Description: e.$.c4Description, 
+                c4Technology: e.$.c4Technology, 
+                c4RelSourceId: e.mxCell[0].$.source,
+                c4RelSourceName: "",
+                c4RelTargetId: e.mxCell[0].$.target,
+                c4RelTargetName: "",
+                c4RelIsTargetOf:[],
+                c4RelIsSourceOf: []
+            };
 
-                    //Try to ensure a name
-                    if(!c4Element.c4Name) c4Element.c4Name = "NAME MISSING! Type:" + c4Element.c4Type
-                    if(!c4Element.c4Name) c4Element.c4Name = "NAME MISSING! Technology:" + c4Element.c4Technology
-                    c4Element.c4Path = PATH_SEPARATOR + c4Element.c4Name
+            //Try to ensure a name
+            if(!c4Element.c4Name) c4Element.c4Name = "NAME MISSING! Type:" + c4Element.c4Type
+            c4Element.c4Path = PATH_SEPARATOR + c4Element.c4Name
 
-                    var geometry = e.mxCell[0].mxGeometry[0].$;
-                    c4Element.x = parseInt(geometry.x); 
-                    c4Element.y= parseInt(geometry.y);  
-                    c4Element.width= parseInt(geometry.width);  
-                    c4Element.height= parseInt(geometry.height); 
-                    outputArray.push(c4Element);
-                }
+            var geometry = e.mxCell[0].mxGeometry[0].$;
+            c4Element.x = parseInt(geometry.x); 
+            c4Element.y= parseInt(geometry.y);  
+            c4Element.width= parseInt(geometry.width);  
+            c4Element.height= parseInt(geometry.height); 
+            outputArray.push(c4Element);
 
-            });
-        }
+        });
+
    });
 
    //Links the parents
@@ -87,11 +98,31 @@ const findElement = (outputArray,id) =>{
 const linkRelationships = (outputArray) =>{
     outputArray.forEach(element => {
         if(element.c4Type === "Relationship"){
-            var source = findElement(outputArray,element.c4RelSource);
-            var target = findElement(outputArray,element.c4RelTarget);
-            if (source && target) {
-                source.c4RelIsSourceOf.push(element.c4Description + PATH_SEPARATOR + target.c4Name);
-                target.c4RelIsTargetOf.push(source.c4Name + PATH_SEPARATOR + element.c4Description );
+            var source = findElement(outputArray,element.c4RelSourceId);
+            var target = findElement(outputArray,element.c4RelTargetId);
+            
+            if (source ) {
+                element.c4RelSourceName = source.c4Name;
+                if(target) {
+                source.c4RelIsSourceOf.push(element.c4Name + FLOW_SEPARATOR + target.c4Name);
+                } else
+                { 
+                    source.c4RelIsSourceOf.push(element.c4Name + FLOW_SEPARATOR + "TARGET NOT FOUND! id:" + element.c4RelTargetId);
+                }
+                
+            } else {
+                element.c4RelSourceName = "SOURCE NOT FOUND!";
+            }
+            
+            if (target) {
+                element.c4RelTargetName = target.c4Name;
+                if (source) {
+                    target.c4RelIsTargetOf.push(source.c4Name + FLOW_SEPARATOR + element.c4Name );
+                } else {
+                    target.c4RelIsTargetOf.push(element.c4Name + FLOW_SEPARATOR + "SOURCE NOT FOUND! id:" + element.c4RelSourceId  );
+                }
+            } else {
+                element.c4RelTargetName = "TARGET NOT FOUND!";
             }
 
         }
