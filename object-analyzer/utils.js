@@ -137,7 +137,7 @@ const toCamelCase = (rows) => {
  * @param {*} outputFilePath 
  * @param {*} sort 
  */
-const writeToFile = (outputArray,outputFilePath, columnNames) =>{
+const writeToCsvFile = (outputArray,outputFilePath, columnNames) =>{
     let content = columnNames.join(COLUMN_SEPARATOR) + NEW_LINE;
     for (let i = 0; i < outputArray.length; i++) {
         const element = outputArray[i];
@@ -154,7 +154,7 @@ const writeToFile = (outputArray,outputFilePath, columnNames) =>{
     }
   
     try {
-      fs.writeFileSync(outputFilePath, content);
+      fs.writeFileSync(outputFilePath + ".csv", content);
       // file written successfully
     } catch (err) {
       console.error(err);
@@ -190,7 +190,7 @@ module.exports = {
     roundToInteger,
     undefinedOrEmptyToNull,
     ensureValidColValue ,
-    writeToFile,
+    writeToCsvFile,
     linesToJSONArray,
     getFormatedDate,
     getFormatedDateTime,

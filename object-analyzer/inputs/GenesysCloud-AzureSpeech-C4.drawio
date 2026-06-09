@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" pages="2">
   <diagram name="Toolbox" id="yIeaBEPbNu1IsgAplSEI">
-    <mxGraphModel dx="1264" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,7 +121,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Containers" id="UoHYvFGzHCtFix394gcB">
-    <mxGraphModel dx="1640" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1230" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0m8-u_lFfdSOC_3MusrR-0" />
         <mxCell id="0m8-u_lFfdSOC_3MusrR-1" parent="0m8-u_lFfdSOC_3MusrR-0" />
@@ -176,66 +176,51 @@
             <mxRectangle height="30" width="180" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <object placeholders="1" c4Name="External Partner" c4Type="Person" c4Description="Description of external person." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-15">
+        <object placeholders="1" c4Name="External User" c4Type="Person" c4Description="Description of external person." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-15">
           <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
-            <mxGeometry height="180" width="200" x="390" y="70" as="geometry" />
+            <mxGeometry height="180" width="200" x="462" y="80" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Invoicing" c4Type="Software System" c4Description="External System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-16">
+        <object placeholders="1" c4Name="External System" c4Type="Software System" c4Description="External System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-16">
           <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="120" width="240" x="710" y="130" as="geometry" />
+            <mxGeometry height="120" width="240" x="782" y="140" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Order System" c4Type="SystemScopeBoundary" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" id="0m8-u_lFfdSOC_3MusrR-17">
-          <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="735" width="980" x="60" y="345" as="geometry" />
+        <object placeholders="1" c4Name="Speech" c4Type="SystemScopeBoundary" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" id="0m8-u_lFfdSOC_3MusrR-17">
+          <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];labelPosition=center;verticalLabelPosition=top;" vertex="1">
+            <mxGeometry height="785" width="980" x="60" y="345" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Internal Administrator" c4Type="Person" c4Description="Description of person." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-18">
           <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
-            <mxGeometry height="180" width="200" x="80" y="360" as="geometry" />
+            <mxGeometry height="180" width="200" x="80" y="358" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="API Call" c4Description="API call to Microservice" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Retrieve Orders" c4Protocol="HTTPS" c4InputStructure="OrderRequest" c4OutputStructure="OrderResponse" c4Format="JSON" c4Trigger="On Demand" c4Volume="100" id="0m8-u_lFfdSOC_3MusrR-19">
           <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-20" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-23">
             <mxGeometry relative="1" width="240" x="0.125" y="-40" as="geometry">
               <mxPoint as="offset" />
-              <mxPoint x="910" y="440" as="sourcePoint" />
-              <mxPoint x="1010" y="440" as="targetPoint" />
+              <mxPoint x="982" y="480" as="sourcePoint" />
+              <mxPoint x="1082" y="480" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Orders Web App" c4Type="Container" c4Technology="e.g. JavaScript, Angular etc." c4Description="Description of web browser container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-20">
+        <object placeholders="1" c4Name="Speech Web App" c4Type="Container" c4Technology="e.g. JavaScript, Angular etc." c4Description="Description of web browser container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-20">
           <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
-            <mxGeometry height="160" width="240" x="370" y="360" as="geometry" />
+            <mxGeometry height="160" width="240" x="442" y="400" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Invoicing Sub-System" c4Type="Software System" c4Description="Sub System, detailed in another diagram" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-21">
-          <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="120" width="240" x="710" y="360" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Blob Storage" c4Type="Container" c4Technology="Blob Storage" c4Description="Azure Storage Account" c4CloudServiceType="Blob Storage" c4Memory="" c4CPU="" c4Storage="100" c4Instances="1" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-22">
+        <object placeholders="1" c4Name="Speech Service" c4Type="Container" c4Technology="AI" c4Description="Azure Speech Service" c4CloudServiceType="Speech Service" c4Memory="" c4CPU="" c4Storage="" c4Instances="1" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="0m8-u_lFfdSOC_3MusrR-22">
           <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="120" width="240" x="90" y="880" as="geometry" />
+            <mxGeometry height="120" width="240" x="437" y="980" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Orders Microservice" c4Type="Container" c4Technology="ACA" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" c4CloudServiceType="Container App" c4Memory="2" c4CPU="1" c4Storage="10" Instances="2" id="0m8-u_lFfdSOC_3MusrR-23">
+        <object placeholders="1" c4Name="SpeechMicroservice" c4Type="Container" c4Technology="ACA" c4Description="Description of microservice type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" c4CloudServiceType="Container App" c4Memory="2" c4CPU="1" c4Storage="10" Instances="2" id="0m8-u_lFfdSOC_3MusrR-23">
           <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
-            <mxGeometry height="170" width="200" x="390" y="680" as="geometry" />
+            <mxGeometry height="170" width="200" x="462" y="667.5" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Database Container" c4Type="Container" c4Technology="e.g. Oracle Database 12" c4Description="Description of storage type container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" c4CloudServiceType="" c4Memory="" c4CPU="" c4Storage="" id="0m8-u_lFfdSOC_3MusrR-24">
-          <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
-            <mxGeometry height="120" width="240" x="720" y="900" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Message Queue" c4Type="Container" c4Technology="Azure Service Bus, Apache Kafka, etc." c4Description="Messaging: AtMostOnce, TTL, DeadLetter, FIFO..." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" c4CloudServiceType="Service Bus" id="0m8-u_lFfdSOC_3MusrR-25">
-          <mxCell parent="0m8-u_lFfdSOC_3MusrR-1" style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
-            <mxGeometry height="120" width="240" x="720" y="705" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="0m8-u_lFfdSOC_3MusrR-26" parent="0m8-u_lFfdSOC_3MusrR-1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" value="Order System Container Diagram" vertex="1">
+        <mxCell id="0m8-u_lFfdSOC_3MusrR-26" parent="0m8-u_lFfdSOC_3MusrR-1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" value="Speech SystemContainer Diagram" vertex="1">
           <mxGeometry height="50" width="890" x="40" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Type="Relationship" c4Technology="[API Call, Message Flow]" c4Description="Flow description" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Legend Flow" c4Protocol="" c4Structure="" c4Format="" c4Trigger="" c4Volume="[Nº per Period: Hours, Minutes...]" Size="" id="qrZzWKDfphai88CJDmK_-0">
@@ -247,70 +232,42 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="API Call" c4Description="External System calls Sub System" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Send Order Info." c4Protocol="HTTPS" c4InputStructure="TBD" c4OutputStructure="TBD" c4Format="JSON" c4Trigger="On Demand" c4Volume="100" id="OzXzDcPA9vxbu3mIQLvo-0">
-          <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-16" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-21">
+        <object placeholders="1" c4Type="Relationship" c4Technology="API Call" c4Description="External System calls Sub System" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Text to Speech" c4Protocol="HTTPS" c4InputStructure="TBD" c4OutputStructure="TBD" c4Format="JSON" c4Trigger="On Demand" c4Volume="100" id="OzXzDcPA9vxbu3mIQLvo-0">
+          <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-16" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-23">
             <mxGeometry relative="1" width="240" x="-0.3333" y="-40" as="geometry">
               <mxPoint as="offset" />
               <Array as="points">
-                <mxPoint x="830" y="310" />
-                <mxPoint x="830" y="310" />
+                <mxPoint x="902" y="723" />
               </Array>
-              <mxPoint x="1060" y="260" as="sourcePoint" />
-              <mxPoint x="1240" y="260" as="targetPoint" />
+              <mxPoint x="1132" y="270" as="sourcePoint" />
+              <mxPoint x="902" y="370" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="UI Request" c4Description="External Partner Use Case" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Query Orders" c4Protocol="" c4Structure="" c4Format="" c4Trigger="" c4Volume="[Nº per Period: Hours, Minutes...]" id="OzXzDcPA9vxbu3mIQLvo-1">
+        <object placeholders="1" c4Type="Relationship" c4Technology="UI Request" c4Description="External Partner Use Case" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Text to Speech..." c4Protocol="" c4Structure="" c4Format="" c4Trigger="" c4Volume="[Nº per Period: Hours, Minutes...]" id="OzXzDcPA9vxbu3mIQLvo-1">
           <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-15" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-20">
             <mxGeometry relative="1" width="240" x="-0.2727" y="-40" as="geometry">
               <mxPoint as="offset" />
-              <mxPoint x="270" y="280" as="sourcePoint" />
-              <mxPoint x="450" y="280" as="targetPoint" />
+              <mxPoint x="342" y="290" as="sourcePoint" />
+              <mxPoint x="522" y="290" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="UI Request" c4Description="Administrator Use Case" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Administer Orders" c4Protocol="" c4Structure="" c4Format="" c4Trigger="" c4Volume="[Nº per Period: Hours, Minutes...]" id="OzXzDcPA9vxbu3mIQLvo-2">
-          <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-18" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.99;exitY=0.683;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-20">
+        <object placeholders="1" c4Type="Relationship" c4Technology="UI Request" c4Description="Administrator Voices" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Administer Orders" c4Protocol="" c4Structure="" c4Format="" c4Trigger="" c4Volume="[Nº per Period: Hours, Minutes...]" id="OzXzDcPA9vxbu3mIQLvo-2">
+          <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-18" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.995;exitY=0.683;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-20">
             <mxGeometry relative="1" width="240" x="0.3328" y="25" as="geometry">
               <mxPoint x="-15" y="5" as="offset" />
-              <mxPoint x="470" y="270" as="sourcePoint" />
-              <mxPoint x="470" y="380" as="targetPoint" />
+              <mxPoint x="350" y="492.94000000000005" as="sourcePoint" />
+              <mxPoint x="542" y="390" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="API Call" c4Description="Store the file as a Blob" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Store Order File" c4Protocol="HTTPS" c4InputStructure="TBD" c4OutputStructure="TBD" c4Format="JSON" c4Trigger="On Demand" c4Volume="100" Size="1" id="OzXzDcPA9vxbu3mIQLvo-3">
+        <object placeholders="1" c4Type="Relationship" c4Technology="API Call" c4Description="Speech to Text" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Speech to Text" c4Protocol="HTTPS" c4InputStructure="TBD" c4OutputStructure="TBD" c4Format="JSON" c4Trigger="On Demand" c4Volume="100" Size="1" id="OzXzDcPA9vxbu3mIQLvo-3">
           <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-23" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-22">
-            <mxGeometry relative="1" width="240" x="-0.1864" y="-15" as="geometry">
+            <mxGeometry relative="1" width="240" x="-0.2881" y="-5" as="geometry">
               <mxPoint as="offset" />
-              <mxPoint x="500" y="530" as="sourcePoint" />
-              <mxPoint x="500" y="690" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="API Call" c4Description="Add an Order Message to the Queue" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Add Order Message" c4Protocol="AMQP" c4InputStructure="TBD" c4OutputStructure="TBD" c4Format="JSON" c4Trigger="On Demand" c4Volume="100" Size="1" id="gera2QAED_VQr62Xy3ii-0">
-          <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-23" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-25">
-            <mxGeometry relative="1" width="240" x="-0.1864" y="-15" as="geometry">
-              <mxPoint as="offset" />
-              <mxPoint x="400" y="775" as="sourcePoint" />
-              <mxPoint x="220" y="890" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="API Call" c4Description="Insert Order into Database" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Insert Order" c4Protocol="TCP/IP" c4InputStructure="TBD" c4OutputStructure="TBD" c4Format="SQL" c4Trigger="On Demand" c4Volume="10" Size="1" id="4mNzUKQJedYtJikZnEwG-0">
-          <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-23" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-24">
-            <mxGeometry relative="1" width="240" x="-0.1864" y="-15" as="geometry">
-              <mxPoint as="offset" />
-              <mxPoint x="400" y="775" as="sourcePoint" />
-              <mxPoint x="220" y="890" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="API Call" c4Description="API call to Invoicing Syb-System" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Name="Retrieve Invoices" c4Protocol="HTTPS" c4InputStructure="TBD" c4OutputStructure="TBD" c4Format="JSON" c4Trigger="On Demand" c4Volume="100" id="4mNzUKQJedYtJikZnEwG-1">
-          <mxCell edge="1" parent="0m8-u_lFfdSOC_3MusrR-1" source="0m8-u_lFfdSOC_3MusrR-23" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="0m8-u_lFfdSOC_3MusrR-21">
-            <mxGeometry relative="1" width="240" x="0.125" y="-40" as="geometry">
-              <mxPoint as="offset" />
-              <mxPoint x="500" y="530" as="sourcePoint" />
-              <mxPoint x="830" y="480" as="targetPoint" />
+              <mxPoint x="572" y="570" as="sourcePoint" />
+              <mxPoint x="572" y="730" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>

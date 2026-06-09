@@ -1,0 +1,6 @@
+Flow,SourceName,TargetName,Description,Technology,Protocol,InputStructure,OutputStructure,Format,Trigger,Volume,Id,Diagram,C4Type,Path
+Retrieve Orders,Speech Web App,SpeechMicroservice,API call to Microservice,API Call,HTTPS,OrderRequest,OrderResponse,JSON,On Demand,100,0m8-u_lFfdSOC_3MusrR-19,Containers,Relationship,/Retrieve Orders
+Text to Speech,External System,SpeechMicroservice,External System calls Sub System,API Call,HTTPS,TBD,TBD,JSON,On Demand,100,OzXzDcPA9vxbu3mIQLvo-0,Containers,Relationship,/Text to Speech
+Text to Speech...,External User,Speech Web App,External Partner Use Case,UI Request,,,,,,[Nº per Period: Hours| Minutes...],OzXzDcPA9vxbu3mIQLvo-1,Containers,Relationship,/Text to Speech...
+Administer Orders,Internal Administrator,Speech Web App,Administrator Voices,UI Request,,,,,,[Nº per Period: Hours| Minutes...],OzXzDcPA9vxbu3mIQLvo-2,Containers,Relationship,/Administer Orders
+Speech to Text,SpeechMicroservice,Speech Service,Speech to Text,API Call,HTTPS,TBD,TBD,JSON,On Demand,100,OzXzDcPA9vxbu3mIQLvo-3,Containers,Relationship,/Speech to Text

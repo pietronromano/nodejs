@@ -11,8 +11,10 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+            //Note these paths work Ok on Windows and MacOS
             "program": "${workspaceFolder}/app.js",
-            "args": ["xml","inputs/c4-template.drawio","outputs", "c4"]
+            "args": ["xml","inputs/GenesysCloud-AzureSpeech-C4.drawio","outputs", "c4"]
+            //"args": ["xml","inputs/c4-template.drawio","outputs", "c4"]
             //"args": ["json","inputs/test1.json","outputs"]
            
         }

@@ -11,7 +11,7 @@ const COLUMN_REPLACER = "|";
  * @param {*} outputFilePath 
  * @param {*} sort 
  */
-const writeToFile = (outputArray,outputFilePath, sort = false) =>{
+const writeToCsvFile = (outputArray,outputFilePath, sort = false) =>{
     //best not to sort, keeps order found in json file
     if(sort) {
         outputArray.sort((a, b) => {
@@ -21,7 +21,7 @@ const writeToFile = (outputArray,outputFilePath, sort = false) =>{
         });
     }
     const columns = ["id", "path", "level", "property", "type", "value"];
-    utils.writeToFile(outputArray,outputFilePath,columns);
+    utils.writeToCsvFile(outputArray,outputFilePath,columns);
 }
 
 /**
@@ -98,6 +98,6 @@ const analyzeProperties = (outputArray,obj, parentPath = '',arrayIndex = 1)  =>{
 	 
  module.exports = {
     analyzeProperties: analyzeProperties,
-    writeToFile : writeToFile
+    writeToCsvFile : writeToCsvFile
 
  }

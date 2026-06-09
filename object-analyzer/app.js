@@ -32,8 +32,8 @@ const analyze = (obj, options) =>  {
   } 
 
   objectAnalyzer.analyzeProperties(outputArray,obj);
-  const outputFilePath = path.join(outputFileDir, `objectAnalysis_${processDateTime}.csv`);
-  objectAnalyzer.writeToFile(outputArray, outputFilePath);
+  const outputFilePath = path.join(outputFileDir, `object_analysis_${processDateTime}`);
+  objectAnalyzer.writeToCsvFile(outputArray, outputFilePath);
   console.log("File written to: " + outputFilePath);
 
 }

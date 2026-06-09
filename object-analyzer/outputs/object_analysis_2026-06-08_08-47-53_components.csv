@@ -1,0 +1,8 @@
+Component,Description,Technology,CloudServiceType,Memory,CPU,Storage,Instances,IsTargetOf,IsSourceOf,Id,Diagram,C4Type,Parent,Path
+External User,Person,,,,,,,,Text to Speech...->Speech Web App,0m8-u_lFfdSOC_3MusrR-15,Containers,Person,,/External User
+External System,Software System,,,,,,,,Text to Speech->SpeechMicroservice,0m8-u_lFfdSOC_3MusrR-16,Containers,Software System,,/External System
+Speech,SystemScopeBoundary,,,,,,,,,0m8-u_lFfdSOC_3MusrR-17,Containers,SystemScopeBoundary,,/Speech
+Internal Administrator,Person,,,,,,,,Administer Orders->Speech Web App,0m8-u_lFfdSOC_3MusrR-18,Containers,Person,Speech,/Speech/Internal Administrator
+Speech Web App,Container,e.g. JavaScript| Angular etc.,,,,,,External User->Text to Speech...|Internal Administrator->Administer Orders,Retrieve Orders->SpeechMicroservice,0m8-u_lFfdSOC_3MusrR-20,Containers,Container,Speech,/Speech/Speech Web App
+Speech Service,Container,AI,Speech Service,,,,1,SpeechMicroservice->Speech to Text,,0m8-u_lFfdSOC_3MusrR-22,Containers,Container,Speech,/Speech/Speech Service
+SpeechMicroservice,Container,ACA,Container App,2,1,10,,Speech Web App->Retrieve Orders|External System->Text to Speech,Speech to Text->Speech Service,0m8-u_lFfdSOC_3MusrR-23,Containers,Container,Speech,/Speech/SpeechMicroservice

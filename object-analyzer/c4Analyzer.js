@@ -21,9 +21,72 @@ const FLOW_SEPARATOR = "->";
  * @param {*} outputFilePath 
  * @param {*} sort 
  */
-const writeToFile = (outputArray,outputFilePath) =>{
+const writeToCsvFile = (outputArray,outputFilePath) =>{
     const columnNames = Object.getOwnPropertyNames(outputArray[0]);
-    utils.writeToFile(outputArray,outputFilePath,columnNames);
+    utils.writeToCsvFile(outputArray,outputFilePath,columnNames);
+
+    const components = getComponents(outputArray);
+    const componentColumnNames = Object.getOwnPropertyNames(components[0]);
+    utils.writeToCsvFile(components,outputFilePath + "_components",componentColumnNames);
+
+    const flows = getFlows(outputArray);
+    const flowColumnNames = Object.getOwnPropertyNames(flows[0]);
+    utils.writeToCsvFile(flows,outputFilePath + "_flows",flowColumnNames);
+
+}
+
+const getComponents = (outputArray)  =>{
+    const components = [];
+        outputArray.forEach(element => {   
+        if(element.c4Type == "Relationship")
+            return; //skip relationships
+        var component = {
+            Component: element.c4Name,
+            Description: element.c4Type,
+            Technology: element.c4Technology,
+            CloudServiceType: element.c4CloudServiceType,
+            Memory: element.c4Memory,
+            CPU: element.c4CPU,
+            Storage: element.c4Storage,
+            Instances: element.c4Instances,
+            IsTargetOf: element.c4RelIsTargetOf,
+            IsSourceOf: element.c4RelIsSourceOf,
+            Id: element.id,
+            Diagram: element.diagram,
+            C4Type: element.c4Type,
+            Parent: element.c4Parent,
+            Path: element.c4Path
+        };
+        components.push(component);
+    });
+    return components;
+}
+
+const getFlows = (outputArray)  =>{
+    const flows = [];
+        outputArray.forEach(element => {   
+        if(element.c4Type != "Relationship" || (element.c4Name && element.c4Name.includes("Legend")))
+            return; //skip non-relationships
+        var flow = {
+            Flow: element.c4Name,
+            SourceName: element.c4RelSourceName,
+            TargetName: element.c4RelTargetName,
+            Description: element.c4Description,
+            Technology: element.c4Technology,
+            Protocol: element.c4Protocol,
+            InputStructure: element.c4InputStructure,
+            OutputStructure: element.c4OutputStructure,
+            Format: element.c4Format,
+            Trigger: element.c4Trigger,
+            Volume: element.c4Volume,
+            Id: element.id,
+            Diagram: element.diagram,
+            C4Type: element.c4Type,
+            Path: element.c4Path
+        };
+        flows.push(flow);
+    });
+    return flows;
 }
 
 /**
@@ -56,12 +119,23 @@ const analyzeProperties = (outputArray,obj)  =>{
                 c4Path: e.$.c4Path,
                 c4Description: e.$.c4Description, 
                 c4Technology: e.$.c4Technology, 
+                c4CloudServiceType: e.$.c4CloudServiceType, 
+                c4Memory: e.$.c4Memory,
+                c4CPU: e.$.c4CPU,
+                c4Storage: e.$.c4Storage,
+                c4Instances: e.$.c4Instances,
                 c4RelSourceId: e.mxCell[0].$.source,
                 c4RelSourceName: "",
                 c4RelTargetId: e.mxCell[0].$.target,
                 c4RelTargetName: "",
                 c4RelIsTargetOf:[],
-                c4RelIsSourceOf: []
+                c4RelIsSourceOf: [],
+                c4Protocol: e.$.c4Protocol,
+                c4InputStructure: e.$.c4InputStructure,
+                c4OutputStructure: e.$.c4OutputStructure,
+                c4Format: e.$.c4Format,
+                c4Trigger: e.$.c4Trigger,
+                c4Volume: e.$.c4Volume
             };
 
             //Try to ensure a name
@@ -192,6 +266,6 @@ const isInside = (outer, inner) => {
  module.exports = {
     analyzeProperties: analyzeProperties,
     linkParents: linkParents,
-    writeToFile : writeToFile
+    writeToCsvFile : writeToCsvFile
 
  }
